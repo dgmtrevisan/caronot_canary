@@ -144,14 +144,14 @@ taskHuntingFreeRerollTime = 20 * 60 * 60
 -- NOTE: forgeFiendishLimit, limit of diabolic monsters that will be created in interval type and time, less than forgeInfluencedLimit
 -- NOTE: forgeFiendishIntervalType: "hour", "minute" or "second"
 forgeMaxItemTier = 10
-forgeCostOneSliver = 20
+forgeCostOneSliver = 2
 forgeSliverAmount = 3
-forgeCoreCost = 50
+forgeCoreCost = 5
 forgeMaxDust = 225
-forgeFusionDustCost = 100
-forgeConvergenceFusionDustCost = 130
-forgeTransferDustCost = 100
-forgeConvergenceTransferCost = 160
+forgeFusionDustCost = 10
+forgeConvergenceFusionDustCost = 13
+forgeTransferDustCost = 10
+forgeConvergenceTransferCost = 16
 forgeBaseSuccessRate = 100
 forgeBonusSuccessRate = 0
 forgeTierLossReduction = 50
