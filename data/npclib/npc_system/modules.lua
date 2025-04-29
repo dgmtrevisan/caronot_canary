@@ -492,7 +492,9 @@ if Modules == nil then
 		self.destinations[#self.destinations + 1] = name
 
 		local parameters = {
-			cost = price,
+			-- cost = price,
+			-- Forçando o custo para 0 em todas as viagens
+			cost = 0,
 			destination = position,
 			premium = premium,
 			module = self,

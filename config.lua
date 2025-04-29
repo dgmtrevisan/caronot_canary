@@ -152,15 +152,15 @@ forgeFusionDustCost = 100
 forgeConvergenceFusionDustCost = 130
 forgeTransferDustCost = 100
 forgeConvergenceTransferCost = 160
-forgeBaseSuccessRate = 50
-forgeBonusSuccessRate = 15
+forgeBaseSuccessRate = 100
+forgeBonusSuccessRate = 0
 forgeTierLossReduction = 50
 forgeAmountMultiplier = 3
 forgeMinSlivers = 3
 forgeMaxSlivers = 7
 forgeInfluencedLimit = 300
 forgeFiendishLimit = 4
-forgeFiendishIntervalType = "hour"
+forgeFiendishIntervalType = "second"
 forgeFiendishIntervalTime = "1"
 
 ruseChanceFormulaA = 0.0307576
@@ -184,8 +184,8 @@ transcendanceAvatarDuration = 7000
 -- Bestiary & Bosstiary system
 -- NOTE: bestiaryKillMultiplier, multiplier value of monster killed, default 1
 -- NOTE: bosstiaryKillMultiplier, multiplier value of boss killed, default 1
-bestiaryKillMultiplier = 1
-bosstiaryKillMultiplier = 1
+bestiaryKillMultiplier = 50
+bosstiaryKillMultiplier = 25
 bestiaryRateCharmShopPrice  = 1.0
 boostedBossSlot = true
 boostedBossLootBonus = 250
@@ -282,7 +282,7 @@ autoBank = false
 toggleGoldPouchAllowAnything = false
 toggleGoldPouchQuickLootOnly = false
 toggleServerIsRetroPVP = false
-toggleTravelsFree = false
+toggleTravelsFree = true
 buyAolCommandFee = 0
 buyBlessCommandFee = 0
 teleportPlayerToVocationRoom = true
@@ -315,7 +315,7 @@ staminaOrangeDelay = 1
 staminaGreenDelay = 5
 staminaPzGain = 1
 -- Max players allowed on a dummy.
-maxAllowedOnADummy = 1
+maxAllowedOnADummy = 10
 
 -- Save interval per time
 -- NOTE: toggleSaveInterval: true = enable the save interval, false = disable the save interval
@@ -338,7 +338,7 @@ toggleImbuementNonAggressiveFightOnly = false
 -- NOTE: Only quests that are in the "freequests.lua" script table will work
 -- toggleFreeQuest = enable/disable the system
 -- freeQuestStage = if you add more quests to the table, change this value to run freeQuest again
-toggleFreeQuest = false
+toggleFreeQuest = true
 freeQuestStage = 1
 
 -- Deaths
@@ -359,18 +359,18 @@ Setting this to false may pose risks; if a house is abandoned and contains a lar
 -- NOTE: When toggleCyclopediaHouseAuction = true, the !buyhouse commmand does not work.
 -- Periods: daily/weekly/monthly/yearly/never
 -- Base: sqm,rent,sqm+rent
-toggleCyclopediaHouseAuction = true
-daysToCloseBid = 7
+toggleCyclopediaHouseAuction = false
+daysToCloseBid = 0
 housePriceRentMultiplier = 0.0
 housePriceEachSQM = 1000
 houseRentPeriod = "monthly"
 houseRentRate = 1.0
 houseOwnedByAccount = false
-houseBuyLevel = 100
+houseBuyLevel = 8
 housePurchasedShowPrice = false
 houseLoseAfterInactivity = 30 -- days; 0 = never
 onlyInvitedCanMoveHouseItems = true
-togglehouseTransferOnRestart = true
+togglehouseTransferOnRestart = false
 
 -- Item Usage
 timeBetweenActions = 200
@@ -500,11 +500,11 @@ sortLootByChance = false
 -- To configure rates see file data/stages.lua
 -- lowLevelBonusExp works up to level 50
 rateUseStages = false
-lowLevelBonusExp = 1000
+lowLevelBonusExp = 500
 rateExp = 100
-rateSkill = 10
-rateLoot = 5
-rateMagic = 10
+rateSkill = 15
+rateLoot = 10
+rateMagic = 15
 rateSpawn = 2
 
 -- Killing in the name of Quest
@@ -537,8 +537,8 @@ rateBossHealth = 1.0
 rateBossAttack = 1.0
 rateBossDefense = 1.0
 
-bossDefaultTimeToFightAgain = 20 * 60 * 60 -- 20 hours
-bossDefaultTimeToDefeat = 20 * 60 -- 20 minutes
+bossDefaultTimeToFightAgain = 60 -- 1 minute
+bossDefaultTimeToDefeat = 60 -- 1 minute
 
 -- Monsters
 defaultRespawnTime = 60
