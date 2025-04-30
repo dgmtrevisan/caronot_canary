@@ -161,7 +161,7 @@ forgeMaxSlivers = 50
 forgeInfluencedLimit = 900
 forgeFiendishLimit = 15
 forgeFiendishIntervalType = "minute"
-forgeFiendishIntervalTime = "10"
+forgeFiendishIntervalTime = "15"
 
 ruseChanceFormulaA = 0.0307576
 ruseChanceFormulaB = 0.440697
