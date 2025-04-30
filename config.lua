@@ -537,7 +537,7 @@ rateBossHealth = 1.0
 rateBossAttack = 1.0
 rateBossDefense = 1.0
 
-bossDefaultTimeToFightAgain = 5 * 60 -- 5 minutes
+bossDefaultTimeToFightAgain = 1 * 60 -- 1 minute
 bossDefaultTimeToDefeat = 20 * 60 -- 10 minutes
 
 -- Monsters
