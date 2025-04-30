@@ -284,7 +284,7 @@ toggleGoldPouchQuickLootOnly = false
 toggleServerIsRetroPVP = false
 toggleTravelsFree = true
 buyAolCommandFee = 0
-buyBlessCommandFee = 0
+buyBlessCommandFee = 100
 teleportPlayerToVocationRoom = true
 toggleReceiveReward = false
 randomMonsterSpawn = false
@@ -508,7 +508,7 @@ rateMagic = 15
 rateSpawn = 2
 
 -- Killing in the name of Quest
-rateKillingInTheNameOfPoints = 1
+rateKillingInTheNameOfPoints = 100
 
 -- Today regeneration condition over an loop every 1 second,
 -- So values which should regenerated less then 1 second or won't will work
