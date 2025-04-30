@@ -361,6 +361,11 @@ local questTable = {
 	{ storageName = "TheWhiteRavenMonastery.Passage", storage = Storage.Quest.U7_24.TheWhiteRavenMonastery.Passage, storageValue = 1 },
 	{ storageName = "TheWhiteRavenMonastery.Diary", storage = Storage.Quest.U7_24.TheWhiteRavenMonastery.Diary, storageValue = 2 },
 	{ storageName = "TheWhiteRavenMonastery.Door", storage = Storage.Quest.U7_24.TheWhiteRavenMonastery.Door, storageValue = 1 },
+	{ storageName = "TheDreamCourts.Main.Questline", storage = Storage.Quest.U12_00.TheDreamCourts.Main.Questline, storageValue = 1 },
+	{ storageName = "TheDreamCourts.WardStones.Questline", storage = Storage.Quest.U12_00.TheDreamCourts.WardStones.Questline, storageValue = 3 },
+	{ storageName = "TheDreamCourts.UnsafeRelease.Questline", storage = Storage.Quest.U12_00.TheDreamCourts.UnsafeRelease.Questline, storageValue = 3 },
+	{ storageName = "TheDreamCourts.HauntedHouse.Questline", storage = Storage.Quest.U12_00.TheDreamCourts.HauntedHouse.Questline, storageValue = 6 },
+	{ storageName = "TheDreamCourts.TheSevenKeys.Questline", storage = Storage.Quest.U12_00.TheDreamCourts.TheSevenKeys.Questline, storageValue = 2 },
 }
 
 -- from Position: (33201, 31762, 1)
