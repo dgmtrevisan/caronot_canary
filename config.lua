@@ -148,20 +148,20 @@ forgeCostOneSliver = 2
 forgeSliverAmount = 3
 forgeCoreCost = 5
 forgeMaxDust = 225
-forgeFusionDustCost = 10
-forgeConvergenceFusionDustCost = 13
-forgeTransferDustCost = 10
+forgeFusionDustCost = 5
+forgeConvergenceFusionDustCost = 5
+forgeTransferDustCost = 5
 forgeConvergenceTransferCost = 16
 forgeBaseSuccessRate = 100
 forgeBonusSuccessRate = 0
 forgeTierLossReduction = 50
 forgeAmountMultiplier = 3
-forgeMinSlivers = 3
-forgeMaxSlivers = 7
-forgeInfluencedLimit = 300
-forgeFiendishLimit = 4
-forgeFiendishIntervalType = "second"
-forgeFiendishIntervalTime = "1"
+forgeMinSlivers = 20
+forgeMaxSlivers = 50
+forgeInfluencedLimit = 900
+forgeFiendishLimit = 15
+forgeFiendishIntervalType = "minute"
+forgeFiendishIntervalTime = "10"
 
 ruseChanceFormulaA = 0.0307576
 ruseChanceFormulaB = 0.440697
@@ -239,11 +239,11 @@ wheelAtelierRevealGreaterCost = 6000000
 -- Familiar system
 -- NOTE: the time will be divided by 2 to get half the value, the familiar lasts 15 minutes by default and the cooldown of the spell is 30 minutes
 -- Only change it here if you know what you are doing or to make testing easier with familiars
-familiarTime = 30
+familiarTime = 60
 
 partyAutoShareExperience = true
 -- partyShareRangeMultiplier: the range of the party share experience, default 3/2 (1.5)
-partyShareRangeMultiplier = 1.5
+partyShareRangeMultiplier = 10
 partyShareLootBoosts = false
 partyShareLootBoostsDimishingFactor = 0.7
 
@@ -537,8 +537,8 @@ rateBossHealth = 1.0
 rateBossAttack = 1.0
 rateBossDefense = 1.0
 
-bossDefaultTimeToFightAgain = 60 -- 1 minute
-bossDefaultTimeToDefeat = 60 -- 1 minute
+bossDefaultTimeToFightAgain = 1 * 60 -- 1 minute
+bossDefaultTimeToDefeat = 10 * 60 -- 10 minutes
 
 -- Monsters
 defaultRespawnTime = 60
