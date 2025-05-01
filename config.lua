@@ -119,7 +119,7 @@ augmentStrongImpactPercent = 10
 preySystemEnabled = true
 preyFreeThirdSlot = false
 preyRerollPricePerLevel = 200
-preySelectListPrice = 5
+preySelectListPrice = 2
 preyBonusRerollPrice = 1
 preyBonusTime = 2 * 60 * 60
 preyFreeRerollTime = 20 * 60 * 60
@@ -132,7 +132,7 @@ taskHuntingSystemEnabled = true
 taskHuntingFreeThirdSlot = false
 taskHuntingLimitedTasksExhaust = 20 * 60 * 60
 taskHuntingRerollPricePerLevel = 200
-taskHuntingSelectListPrice = 5
+taskHuntingSelectListPrice = 2
 taskHuntingBonusRerollPrice = 1
 taskHuntingFreeRerollTime = 20 * 60 * 60
 
@@ -143,7 +143,7 @@ taskHuntingFreeRerollTime = 20 * 60 * 60
 -- NOTE: forgeInfluencedLimit, limit of influenced monsters that will be created in interval type and time
 -- NOTE: forgeFiendishLimit, limit of diabolic monsters that will be created in interval type and time, less than forgeInfluencedLimit
 -- NOTE: forgeFiendishIntervalType: "hour", "minute" or "second"
-forgeMaxItemTier = 10
+forgeMaxItemTier = 15
 forgeCostOneSliver = 2
 forgeSliverAmount = 3
 forgeCoreCost = 5
@@ -208,7 +208,7 @@ hazardPodsDamage = 5
 hazardSpawnPlunderMultiplier = 25
 
 -- Loyalty system
-loyaltyEnabled = true
+loyaltyEnabled = false
 loyaltyPointsPerCreationDay = 1
 loyaltyPointsPerPremiumDaySpent = 0
 loyaltyPointsPerPremiumDayPurchased = 0
@@ -225,16 +225,16 @@ pvpMaxLevelDifference = 0
 -- NOTE: set wheelSystemEnabled = false to disable the wheel of destiny
 -- NOTE: only the wheel points are modified, all other data is on the client executable and cannot be modified
 wheelSystemEnabled = true
-wheelPointsPerLevel = 1
+wheelPointsPerLevel = 2
 
 -- Gem Atelier
-wheelAtelierRotateLesserCost = 125000
-wheelAtelierRotateRegularCost = 250000
-wheelAtelierRotateGreaterCost = 500000
+wheelAtelierRotateLesserCost = 125
+wheelAtelierRotateRegularCost = 250
+wheelAtelierRotateGreaterCost = 500
 
-wheelAtelierRevealLesserCost = 125000
-wheelAtelierRevealRegularCost = 1000000
-wheelAtelierRevealGreaterCost = 6000000
+wheelAtelierRevealLesserCost = 125
+wheelAtelierRevealRegularCost = 1000
+wheelAtelierRevealGreaterCost = 6000
 
 -- Familiar system
 -- NOTE: the time will be divided by 2 to get half the value, the familiar lasts 15 minutes by default and the cooldown of the spell is 30 minutes
@@ -512,11 +512,11 @@ rateKillingInTheNameOfPoints = 100
 
 -- Today regeneration condition over an loop every 1 second,
 -- So values which should regenerated less then 1 second or won't will work
-rateHealthRegen = 1.0
+rateHealthRegen = 3.0
 rateHealthRegenSpeed = 1.0
-rateManaRegen = 1.0
+rateManaRegen = 3.0
 rateManaRegenSpeed = 1.0
-rateSoulRegen = 1.0
+rateSoulRegen = 3.0
 rateSoulRegenSpeed = 1.0
 
 rateSpellCooldown = 1.0
@@ -537,7 +537,7 @@ rateBossHealth = 1.0
 rateBossAttack = 1.0
 rateBossDefense = 1.0
 
-bossDefaultTimeToFightAgain = 1 * 60 -- 1 minute
+bossDefaultTimeToFightAgain = 2 * 60 -- 1 minute
 bossDefaultTimeToDefeat = 20 * 60 -- 10 minutes
 
 -- Monsters
@@ -546,7 +546,7 @@ deSpawnRange = 2
 deSpawnRadius = 50
 
 -- Stamina
-staminaSystem = true
+staminaSystem = false
 
 -- Scripts
 warnUnsafeScripts = true
@@ -568,7 +568,7 @@ location = "South America"
 -- The URL layout is https://discord.com/api/webhooks/:id/:token
 -- Leave empty if you wish to disable.
 discordWebhookURL = ""
-discordSendFooter = true
+discordSendFooter = false
 discordWebhookDelayMs = 1000
 
 -- Vip System (Get more info in: https://github.com/opentibiabr/canary/pull/1063)
