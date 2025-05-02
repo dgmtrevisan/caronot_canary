@@ -61,6 +61,7 @@ npcConfig.shop = {
 	{ itemName = "conch shell horn", clientId = 43863, buy = 1 },
 	{ itemName = "bone fiddle", clientId = 28493, buy = 1 },
 	{ itemName = "prismatic necklace", clientId = 16113, buy = 1 },
+	{ itemName = "prismatic ring", clientId = 16264, buy = 1 },
 	{ itemName = "gill necklace", clientId = 16108, buy = 1 },
 	{ itemName = "protection amulet", clientId = 3084, buy = 1 },
 	{ itemName = "terra amulet", clientId = 814, buy = 1 },
