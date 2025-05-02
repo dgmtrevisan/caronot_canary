@@ -374,6 +374,16 @@ function Player:onMoveItem(item, count, fromPosition, toPosition, fromCylinder, 
 		return false
 	end
 
+	-- Permitir que jogadores possam:
+	-- Abrir containers dentro da casa sem ser dono mas não consigam mover ou pegar itens soltos no chão
+	local house = House.getHouse(fromPosition)
+    if house and house:getOwnerGuid() ~= player:getGuid() then
+        if fromPosition.x ~= CONTAINER_POSITION then
+            player:sendCancelMessage("Não podes mover itens do chão desta casa sem permissão.")
+            return false
+        end
+    end
+
 	return true
 end
 

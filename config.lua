@@ -151,7 +151,7 @@ forgeMaxDust = 225
 forgeFusionDustCost = 5
 forgeConvergenceFusionDustCost = 5
 forgeTransferDustCost = 5
-forgeConvergenceTransferCost = 16
+forgeConvergenceTransferCost = 5
 forgeBaseSuccessRate = 100
 forgeBonusSuccessRate = 0
 forgeTierLossReduction = 50
@@ -362,14 +362,14 @@ Setting this to false may pose risks; if a house is abandoned and contains a lar
 toggleCyclopediaHouseAuction = false
 daysToCloseBid = 0
 housePriceRentMultiplier = 0.0
-housePriceEachSQM = 1000
-houseRentPeriod = "monthly"
+housePriceEachSQM = 1
+houseRentPeriod = "yearly"
 houseRentRate = 1.0
 houseOwnedByAccount = false
 houseBuyLevel = 8
 housePurchasedShowPrice = false
-houseLoseAfterInactivity = 30 -- days; 0 = never
-onlyInvitedCanMoveHouseItems = true
+houseLoseAfterInactivity = 0 -- days; 0 = never
+onlyInvitedCanMoveHouseItems = false
 togglehouseTransferOnRestart = false
 
 -- Item Usage

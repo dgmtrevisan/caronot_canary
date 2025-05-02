@@ -1470,11 +1470,17 @@
 	<npc centerx="32336" centery="31807" centerz="7" radius="1">
 		<npc name="Sarina" x="0" y="0" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="33167" centery="31815" centerz="7" radius="1">
+	<npc centerx="33165" centery="31815" centerz="7" radius="1">
 		<npc name="Lenao Floripa" x="0" y="0" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="33167" centery="31810" centerz="7" radius="1">
+	<npc centerx="33166" centery="31810" centerz="7" radius="1">
 		<npc name="Lenao Bolseiro" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33170" centery="31810" centerz="7" radius="1">
+		<npc name="Lenao da Massa" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33173" centery="31815" centerz="7" radius="1">
+		<npc name="Lenao Pira" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="33175" centery="31811" centerz="7" radius="1">
 		<npc name="Chrystal" x="0" y="0" z="7" spawntime="60" />

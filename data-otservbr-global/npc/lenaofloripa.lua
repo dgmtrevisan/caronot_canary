@@ -106,7 +106,6 @@ npcConfig.shop = {
 	{ itemName = "pile of grave earth", clientId = 11484, buy = 1 },
 	{ itemName = "mantassin tail", clientId = 11489, buy = 1 },
 	{ itemName = "warmaster's wristguards", clientId = 10405, buy = 1 },
-	{ itemName = "warmaster's wristguards", clientId = 10405, buy = 1 },
 	{ itemName = "ogre nose ring", clientId = 22189, buy = 1 },
 	{ itemName = "cyclops toe", clientId = 9657, buy = 1 },
 	{ itemName = "war crystal", clientId = 9654, buy = 1 },
