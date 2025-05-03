@@ -11,12 +11,7 @@ npcConfig.walkInterval = 0
 npcConfig.walkRadius = 1
 
 npcConfig.outfit = {
-	lookType = 132,
-	lookHead = 114,
-	lookBody = 94,
-	lookLegs = 86,
-	lookFeet = 114,
-	lookAddons = 3,
+	lookType = 99,
 }
 
 npcConfig.flags = {
@@ -53,10 +48,6 @@ end
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
 npcConfig.shop = {	
-	{ itemName = "present", clientId = 25302, buy = 1 },
-	{ itemName = "present", clientId = 3218, buy = 1 },
-	{ itemName = "present", clientId = 2856, buy = 1 },
-	{ itemName = "present", clientId = 906, buy = 1 },
 	{ itemName = "blossom bag", clientId = 25780, buy = 1 },
 	{ itemName = "feedbag", clientId = 21292, buy = 1 },
 	{ itemName = "jewel case", clientId = 7527, buy = 1 },
