@@ -37,12 +37,13 @@ function movements_falcon_bossEntrance.onStepIn(creature, item, position, fromPo
 			if isInArray(blockedPositions, position) then
 				return true
 			else
-				if creature:canFightBoss("Grand Master Oberon") then
-					creature:teleportTo(Position(33363, 31341, 9), true)
-				else
-					creature:teleportTo(fromPosition, true)
-					creature:sendCancelMessage("You are still exhausted from your last battle.")
-				end
+				-- if creature:canFightBoss("Grand Master Oberon") then
+					-- creature:teleportTo(Position(33363, 31341, 9), true)
+				-- else
+					-- creature:teleportTo(fromPosition, true)
+					-- creature:sendCancelMessage("You are still exhausted from your last battle.")
+				-- end
+				creature:teleportTo(Position(33363, 31341, 9), true)
 			end
 		end
 	end
