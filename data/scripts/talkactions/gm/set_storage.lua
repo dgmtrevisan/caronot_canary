@@ -5,8 +5,8 @@ function setstorage.onSay(player, words, param)
 	logCommand(player, words, param)
 
     local split = param:split(",")
-    local storage = split[1]
-    local value = split[2]
+    local storage = tonumber(split[1])
+    local value = tonumber(split[2])
 
     if storage == "" then
 		player:sendCancelMessage("Command storage required.")
