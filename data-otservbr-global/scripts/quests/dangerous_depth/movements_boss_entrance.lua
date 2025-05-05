@@ -1,5 +1,5 @@
 local bossEntrance = MoveEvent()
-local timeToFightAgain = 10 -- hours
+local timeToFightAgain = 0
 
 function bossEntrance.onStepIn(creature, item, position, fromPosition, toPosition)
 	local player = creature:getPlayer()

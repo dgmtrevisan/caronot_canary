@@ -19,7 +19,7 @@ KeyDoorTable = {
 	{ lockedDoor = 5097, closedDoor = 5098, openDoor = 5099 },
 	{ lockedDoor = 5106, closedDoor = 5107, openDoor = 5108 },
 	{ lockedDoor = 5115, closedDoor = 5116, openDoor = 5117 },
-	-- { lockedDoor = 5124, closedDoor = 5125, openDoor = 5126 },
+	{ lockedDoor = 5124, closedDoor = 5125, openDoor = 5126 },
 	{ lockedDoor = 5133, closedDoor = 5134, openDoor = 5135 },
 	{ lockedDoor = 5136, closedDoor = 5137, openDoor = 5138 },
 	{ lockedDoor = 5139, closedDoor = 5140, openDoor = 5141 },

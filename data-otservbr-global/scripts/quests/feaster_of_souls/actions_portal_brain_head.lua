@@ -1,7 +1,7 @@
 local config = {
 	bossName = "Brain Head",
 	requiredLevel = 250,
-	timeToFightAgain = 10, -- In hour
+	timeToFightAgain = 0,
 	destination = Position(31963, 32324, 10),
 	exitPosition = Position(31971, 32325, 10),
 }

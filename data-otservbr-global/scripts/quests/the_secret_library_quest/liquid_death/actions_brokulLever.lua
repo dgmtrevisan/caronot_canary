@@ -3,7 +3,7 @@ local config = {
 		name = "Brokul",
 		position = Position(33483, 31437, 15),
 	},
-	timeToFightAgain = 20 * 60 * 60,
+	timeToFightAgain = 0,
 	minPlayers = 5,
 	playerPositions = {
 		{ pos = Position(33522, 31465, 15), teleport = Position(33484, 31446, 15) },

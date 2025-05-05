@@ -1,5 +1,5 @@
 local setting = {
-	timeToFightAgain = 10,
+	timeToFightAgain = 0,
 	ignorePlayersCount = true,
 	clearRoomTime = 60, -- In minutes
 	leverPosition = Position(33606, 32362, 11),
