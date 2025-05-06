@@ -193,19 +193,12 @@ local function creatureSayCallback(npc, creature, type, message)
 		npcHandler:say({ "I have creature products for the imbuements {blockade}, {chop}, {epiphany}, {precision}, {slash}, {bash}, {reap}, {lectrify}, {venom}, {frost}, {scorch}, {cloud Fabric}, {demon Presence}, {dragon Hide}, {lich Shroud}, {quara Scale}, {snake Skin}, {featherweight}, {strike}, {swiftness}, {vampirism}, {vibrancy} and {void}. Make your choice, please!" }, npc, creature)
 		npcHandler:setTopic(playerId, 1)
 	elseif npcHandler:getTopic(playerId) == 1 then
-		local imbueType = products[message:lower()]
+		local imbueType = products[message]
+		answerType[playerId] = message
 		if imbueType then
-			npcHandler:say({ "You have chosen " .. message .. ". {Basic}, {intricate} or {powerful}?" }, npc, creature)
-			answerType[playerId] = message
-			npcHandler:setTopic(playerId, 2)
-		end
-	elseif npcHandler:getTopic(playerId) == 2 then
-		local imbueLevel = products[answerType[playerId]][message:lower()]
-		if imbueLevel then
-			answerLevel[playerId] = message:lower()
-			player:addItem(products[answerType[playerId]][answerLevel[playerId]].itens[1].id, products[answerType[playerId]][answerLevel[playerId]].itens[1].amount)
-			player:addItem(products[answerType[playerId]][answerLevel[playerId]].itens[2].id, products[answerType[playerId]][answerLevel[playerId]].itens[2].amount)
-			player:addItem(products[answerType[playerId]][answerLevel[playerId]].itens[3].id, products[answerType[playerId]][answerLevel[playerId]].itens[3].amount)
+			player:addItem(products[answerType[playerId]].itens[1].id, products[answerType[playerId]].itens[1].amount)
+			player:addItem(products[answerType[playerId]].itens[2].id, products[answerType[playerId]].itens[2].amount)
+			player:addItem(products[answerType[playerId]].itens[3].id, products[answerType[playerId]].itens[3].amount)
 			npcHandler:say("There it is.", npc, creature)
 			npcHandler:setTopic(playerId, 0)
 		end
