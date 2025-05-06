@@ -203,20 +203,12 @@ local function creatureSayCallback(npc, creature, type, message)
 		local imbueLevel = products[answerType[playerId]][message:lower()]
 		if imbueLevel then
 			answerLevel[playerId] = message:lower()
-			npcHandler:say("You are sure? {yes} or {no}?" }, npc, creature)
-			npcHandler:setTopic(playerId, 3)
-		end
-	elseif npcHandler:getTopic(playerId) == 3 then
-		if MsgContains(message, "yes") then
 			player:addItem(products[answerType[playerId]][answerLevel[playerId]].itens[1].id, products[answerType[playerId]][answerLevel[playerId]].itens[1].amount)
 			player:addItem(products[answerType[playerId]][answerLevel[playerId]].itens[2].id, products[answerType[playerId]][answerLevel[playerId]].itens[2].amount)
 			player:addItem(products[answerType[playerId]][answerLevel[playerId]].itens[3].id, products[answerType[playerId]][answerLevel[playerId]].itens[3].amount)
 			npcHandler:say("There it is.", npc, creature)
 			npcHandler:setTopic(playerId, 0)
-		elseif MsgContains(message, "no") then
-			npcHandler:say("Your decision. Come back if you have changed your mind.", npc, creature)
 		end
-		npcHandler:setTopic(playerId, 0)
 	end
 	return true
 end
