@@ -84,32 +84,32 @@ local products = {
 		[2] = { id = 5920, amount = 5 },
 		[3] = { id = 5954, amount = 5 },
 	},
-	["cloud Fabric"] = {
+	["cloud fabric"] = {
 		[1] = { id = 9644, amount = 20 },
 		[2] = { id = 14079, amount = 15 },
 		[3] = { id = 9665, amount = 10 },
 	},
-	["demon Presence"] = {
+	["demon presence"] = {
 		[1] = { id = 9639, amount = 25 },
 		[2] = { id = 9638, amount = 25 },
 		[3] = { id = 10304, amount = 20 },
 	},
-	["dragon Hide"] = {
+	["dragon hide"] = {
 		[1] = { id = 5877, amount = 20 },
 		[2] = { id = 16131, amount = 10 },
 		[3] = { id = 11658, amount = 5 },
 	},
-	["lich Shroud"] = {
+	["lich shroud"] = {
 		[1] = { id = 11466, amount = 25 },
 		[2] = { id = 22007, amount = 20 },
 		[3] = { id = 9660, amount = 5 },
 	},
-	["quara Scale"] = {
+	["quara scale"] = {
 		[1] = { id = 10295, amount = 25 },
 		[2] = { id = 10307, amount = 15 },
 		[3] = { id = 14012, amount = 10 },
 	},
-	["snake Skin"] = {
+	["snake skin"] = {
 		[1] = { id = 17823, amount = 25 },
 		[2] = { id = 9694, amount = 20 },
 		[3] = { id = 11702, amount = 10 },
@@ -148,7 +148,6 @@ local products = {
 
 local answerType = {}
 local answerLevel = {}
-
 local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 
@@ -194,12 +193,28 @@ local function creatureSayCallback(npc, creature, type, message)
 		npcHandler:say({ "I have creature products for the imbuements {blockade}, {chop}, {epiphany}, {precision}, {slash}, {bash}, {reap}, {lectrify}, {venom}, {frost}, {scorch}, {cloud Fabric}, {demon Presence}, {dragon Hide}, {lich Shroud}, {quara Scale}, {snake Skin}, {featherweight}, {strike}, {swiftness}, {vampirism}, {vibrancy} and {void}. Make your choice, please!" }, npc, creature)
 		npcHandler:setTopic(playerId, 1)
 	elseif npcHandler:getTopic(playerId) == 1 then
-		local imbueType = products[message]
+		local imbueType = products[message:lower()]
 		if imbueType then
-			player:addItem(products[imbueType][1].id, products[imbueType][1].amount)
-			player:addItem(products[imbueType][2].id, products[imbueType][2].amount)
-			player:addItem(products[imbueType][3].id, products[imbueType][3].amount)
+			npcHandler:say({ "You have chosen " .. message .. ". {Basic}, {intricate} or {powerful}?" }, npc, creature)
+			answerType[playerId] = message
+			npcHandler:setTopic(playerId, 2)
+		end
+	elseif npcHandler:getTopic(playerId) == 2 then
+		local imbueLevel = products[answerType[playerId]][message:lower()]
+		if imbueLevel then
+			answerLevel[playerId] = message:lower()
+			npcHandler:say("You are sure? {yes} or {no}?" }, npc, creature)
+			npcHandler:setTopic(playerId, 3)
+		end
+	elseif npcHandler:getTopic(playerId) == 3 then
+		if MsgContains(message, "yes") then
+			player:addItem(products[answerType[playerId]][answerLevel[playerId]].itens[1].id, products[answerType[playerId]][answerLevel[playerId]].itens[1].amount)
+			player:addItem(products[answerType[playerId]][answerLevel[playerId]].itens[2].id, products[answerType[playerId]][answerLevel[playerId]].itens[2].amount)
+			player:addItem(products[answerType[playerId]][answerLevel[playerId]].itens[3].id, products[answerType[playerId]][answerLevel[playerId]].itens[3].amount)
 			npcHandler:say("There it is.", npc, creature)
+			npcHandler:setTopic(playerId, 0)
+		elseif MsgContains(message, "no") then
+			npcHandler:say("Your decision. Come back if you have changed your mind.", npc, creature)
 		end
 		npcHandler:setTopic(playerId, 0)
 	end
