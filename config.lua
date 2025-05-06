@@ -159,9 +159,9 @@ forgeAmountMultiplier = 3
 forgeMinSlivers = 20
 forgeMaxSlivers = 50
 forgeInfluencedLimit = 900
-forgeFiendishLimit = 15
+forgeFiendishLimit = 10
 forgeFiendishIntervalType = "minute"
-forgeFiendishIntervalTime = "15"
+forgeFiendishIntervalTime = "30"
 
 ruseChanceFormulaA = 0.0307576
 ruseChanceFormulaB = 0.440697
@@ -185,7 +185,7 @@ transcendanceAvatarDuration = 7000
 -- NOTE: bestiaryKillMultiplier, multiplier value of monster killed, default 1
 -- NOTE: bosstiaryKillMultiplier, multiplier value of boss killed, default 1
 bestiaryKillMultiplier = 50
-bosstiaryKillMultiplier = 25
+bosstiaryKillMultiplier = 300
 bestiaryRateCharmShopPrice  = 1.0
 boostedBossSlot = true
 boostedBossLootBonus = 250
