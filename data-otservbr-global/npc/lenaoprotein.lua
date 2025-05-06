@@ -190,17 +190,16 @@ local function creatureSayCallback(npc, creature, type, message)
 	end
 
 	if MsgContains(message, "trade") then
-		npcHandler:say({ "I have creature products for the imbuements {blockade}, {chop}, {epiphany}, {precision}, {slash}, {bash}, {reap}, {lectrify}, {venom}, {frost}, {scorch}, {cloud Fabric}, {demon Presence}, {dragon Hide}, {lich Shroud}, {quara Scale}, {snake Skin}, {featherweight}, {strike}, {swiftness}, {vampirism}, {vibrancy} and {void}. Make your choice, please!" }, npc, creature)
+		npcHandler:say({ "I have creature products for the imbuements {Blockade}, {Chop}, {Epiphany}, {Precision}, {Slash}, {Bash}, {Reap}, {Lectrify}, {Venom}, {Frost}, {Scorch}, {Cloud Fabric}, {Demon Presence}, {Dragon Hide}, {Lich Shroud}, {Quara Scale}, {Snake Skin}, {Featherweight}, {Strike}, {Swiftness}, {Vampirism}, {Vibrancy} and {Void}. Make your choice, please!" }, npc, creature)
 		npcHandler:setTopic(playerId, 1)
 	elseif npcHandler:getTopic(playerId) == 1 then
-		local imbueType = products[message]
-		answerType[playerId] = message
+		local imbueType = products[message:lower()]
+		answerType[playerId] = message:lower()
 		if imbueType then
 			player:addItem(products[answerType[playerId]][1].id, products[answerType[playerId]][1].amount)
 			player:addItem(products[answerType[playerId]][2].id, products[answerType[playerId]][2].amount)
 			player:addItem(products[answerType[playerId]][3].id, products[answerType[playerId]][3].amount)
 			npcHandler:say("There it is.", npc, creature)
-			npcHandler:setTopic(playerId, 0)
 		end
 	end
 	return true
