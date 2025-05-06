@@ -1471,7 +1471,7 @@
 		<npc name="Sarina" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="33216" centery="31809" centerz="8" radius="1">
-		<npc name="Lenao Floripa" x="0" y="0" z="7" spawntime="60" />
+		<npc name="Lenao Protein" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="33167" centery="31801" centerz="7" radius="1">
 		<npc name="Lenao Bolseiro" x="0" y="0" z="7" spawntime="60" />
