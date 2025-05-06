@@ -93,9 +93,9 @@ function flaskPotion.onUse(player, item, fromPosition, target, toPosition, isHot
 		local deactivatedFlasks = player:kv():get("talkaction.potions.flask") or false
 		if not deactivatedFlasks then
 			if fromPosition.x == CONTAINER_POSITION then
-				player:addItem(potion.flask, 1)
+				-- player:addItem(potion.flask, 1)
 			else
-				Game.createItem(potion.flask, 1, fromPosition)
+				-- Game.createItem(potion.flask, 1, fromPosition)
 			end
 		end
 	end
@@ -120,8 +120,8 @@ function flaskPotion.onUse(player, item, fromPosition, target, toPosition, isHot
 
 	if potion.transform then
 		if item:getCount() >= 1 then
-			item:remove(1)
-			player:addItem(potion.transform.id[math.random(#potion.transform.id)], 1)
+			-- item:remove(1)
+			-- player:addItem(potion.transform.id[math.random(#potion.transform.id)], 1)
 			item:getPosition():sendMagicEffect(potion.effect)
 			player:addAchievementProgress("Demonic Barkeeper", 250)
 			return true
@@ -133,7 +133,7 @@ function flaskPotion.onUse(player, item, fromPosition, target, toPosition, isHot
 	end
 
 	player:updateSupplyTracker(item)
-	item:remove(1)
+	-- item:remove(1)
 	return true
 end
 
