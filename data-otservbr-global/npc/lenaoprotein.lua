@@ -29,112 +29,117 @@ end
 npcType.onCheckItem = function(npc, player, clientId, subType) end
 
 local products = {
-	["Blockade"] = {
+	["blockade"] = {
 		[1] = { id = 9641, amount = 20 },
 		[2] = { id = 11703, amount = 25 },
 		[3] = { id = 20199, amount = 25 },
 	},
-	["Chop"] = {
+	["chop"] = {
 		[1] = { id = 10196, amount = 20 },
 		[2] = { id = 11447, amount = 25 },
 		[3] = { id = 21200, amount = 20 },
 	},
-	["Epiphany"] = {
+	["epiphany"] = {
 		[1] = { id = 9635, amount = 25 },
 		[2] = { id = 11452, amount = 15 },
 		[3] = { id = 10309, amount = 15 },
 	},
-	["Precision"] = {
+	["precision"] = {
 		[1] = { id = 11464, amount = 25 },
 		[2] = { id = 18994, amount = 20 },
 		[3] = { id = 10298, amount = 10 },
 	},
-	["Slash"] = {
+	["slash"] = {
 		[1] = { id = 9691, amount = 25 },
 		[2] = { id = 21202, amount = 25 },
 		[3] = { id = 9654, amount = 5 },
 	},
-	["Bash"] = {
+	["bash"] = {
 		[1] = { id = 9657, amount = 20 },
 		[2] = { id = 22189, amount = 15 },
 		[3] = { id = 10405, amount = 10 },
 	},
-	["Reap"] = {
+	["reap"] = {
 		[1] = { id = 11484, amount = 25 },
 		[2] = { id = 9647, amount = 20 },
 		[3] = { id = 10420, amount = 5 },
 	},
-	["Electrify"] = {
+	["lectrify"] = {
 		[1] = { id = 18993, amount = 25 },
 		[2] = { id = 21975, amount = 5 },
 		[3] = { id = 23508, amount = 1 },
 	},
-	["Venom"] = {
+	["venom"] = {
 		[1] = { id = 9686, amount = 25 },
 		[2] = { id = 9640, amount = 20 },
 		[3] = { id = 21194, amount = 2 },
 	},
-	["Frost"] = {
+	["frost"] = {
 		[1] = { id = 9661, amount = 25 },
 		[2] = { id = 21801, amount = 10 },
 		[3] = { id = 9650, amount = 5 },
 	},
-	["Scorch"] = {
+	["scorch"] = {
 		[1] = { id = 9636, amount = 25 },
 		[2] = { id = 5920, amount = 5 },
 		[3] = { id = 5954, amount = 5 },
 	},
-	["Cloud Fabric"] = {
+	["cloud Fabric"] = {
 		[1] = { id = 9644, amount = 20 },
 		[2] = { id = 14079, amount = 15 },
 		[3] = { id = 9665, amount = 10 },
 	},
-	["Demon Presence"] = {
+	["demon Presence"] = {
 		[1] = { id = 9639, amount = 25 },
 		[2] = { id = 9638, amount = 25 },
 		[3] = { id = 10304, amount = 20 },
 	},
-	["Dragon Hide"] = {
+	["dragon Hide"] = {
 		[1] = { id = 5877, amount = 20 },
 		[2] = { id = 16131, amount = 10 },
 		[3] = { id = 11658, amount = 5 },
 	},
-	["Lich Shroud"] = {
+	["lich Shroud"] = {
 		[1] = { id = 11466, amount = 25 },
 		[2] = { id = 22007, amount = 20 },
 		[3] = { id = 9660, amount = 5 },
 	},
-	["Quara Scale"] = {
+	["quara Scale"] = {
 		[1] = { id = 10295, amount = 25 },
 		[2] = { id = 10307, amount = 15 },
 		[3] = { id = 14012, amount = 10 },
 	},
-	["Snake Skin"] = {
+	["snake Skin"] = {
 		[1] = { id = 17823, amount = 25 },
 		[2] = { id = 9694, amount = 20 },
 		[3] = { id = 11702, amount = 10 },
 	},
-	["Featherweight"] = {
+	["featherweight"] = {
 		[1] = { id = 25694, amount = 20 },
 		[2] = { id = 25702, amount = 10 },
 		[3] = { id = 20205, amount = 5 },
 	},
-	["Swiftness"] = {
+	["strike"] = {
+		[1] = { id = 11444, amount = 20 },
+		[2] = { id = 10311, amount = 25 },
+		[3] = { id = 22728, amount = 5 },
+	},
+	["swiftness"] = {
 		[1] = { id = 17458, amount = 15 },
 		[2] = { id = 10302, amount = 25 },
 		[3] = { id = 14081, amount = 20 },
 	},
-	["Vampirism"] = {
+	["vampirism"] = {
 		[1] = { id = 9685, amount = 25 },
 		[2] = { id = 9633, amount = 15 },
 		[3] = { id = 9663, amount = 5 },
 	},
-	["Vibrancy"] = {
+	["vibrancy"] = {
 		[1] = { id = 22053, amount = 20 },
 		[2] = { id = 23507, amount = 15 },
 		[3] = { id = 28567, amount = 5 },
 	},
-	["Void"] = {
+	["void"] = {
 		[1] = { id = 11492, amount = 25 },
 		[2] = { id = 20200, amount = 25 },
 		[3] = { id = 22730, amount = 5 },
@@ -186,14 +191,15 @@ local function creatureSayCallback(npc, creature, type, message)
 	end
 
 	if MsgContains(message, "trade") then
-		npcHandler:say({ "I have creature products for the imbuements {Blockade}, {Chop}, {Epiphany}, {Precision}, {Slash}, {Bash}, {Reap}, {Electrify}, {Venom}, {Frost}, {Scorch}, {Cloud Fabric}, {Demon Presence}, {Dragon Hide}, {Lich Shroud}, {Quara Scale}, {Snake Skin}, {Featherweight}, {Strike}, {Swiftness}, {Vampirism}, {Vibrancy} and {Void}. Make your choice, please!" }, npc, creature)
+		npcHandler:say({ "I have creature products for the imbuements {blockade}, {chop}, {epiphany}, {precision}, {slash}, {bash}, {reap}, {lectrify}, {venom}, {frost}, {scorch}, {cloud Fabric}, {demon Presence}, {dragon Hide}, {lich Shroud}, {quara Scale}, {snake Skin}, {featherweight}, {strike}, {swiftness}, {vampirism}, {vibrancy} and {void}. Make your choice, please!" }, npc, creature)
+		imbueType[playerId] = message
 		npcHandler:setTopic(playerId, 1)
 	elseif npcHandler:getTopic(playerId) == 1 then
-		local imbueType = products[message:lower()]
+		local imbueType = products[imbueType[playerId]]
 		if imbueType then
-			player:addItem(products[imbueType][1].id, products[imbueType][1].amount)
-			player:addItem(products[imbueType][2].id, products[imbueType][2].amount)
-			player:addItem(products[imbueType][3].id, products[imbueType][3].amount)
+			player:addItem(products[imbueType[playerId]][1].id, products[imbueType[playerId]][1].amount)
+			player:addItem(products[imbueType[playerId]][2].id, products[imbueType[playerId]][2].amount)
+			player:addItem(products[imbueType[playerId]][3].id, products[imbueType[playerId]][3].amount)
 			npcHandler:say("There it is.", npc, creature)
 		end
 		npcHandler:setTopic(playerId, 0)
