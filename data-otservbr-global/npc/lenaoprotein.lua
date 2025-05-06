@@ -196,9 +196,9 @@ local function creatureSayCallback(npc, creature, type, message)
 		local imbueType = products[message]
 		answerType[playerId] = message
 		if imbueType then
-			player:addItem(products[answerType[playerId]].itens[1].id, products[answerType[playerId]].itens[1].amount)
-			player:addItem(products[answerType[playerId]].itens[2].id, products[answerType[playerId]].itens[2].amount)
-			player:addItem(products[answerType[playerId]].itens[3].id, products[answerType[playerId]].itens[3].amount)
+			player:addItem(products[answerType[playerId]][1].id, products[answerType[playerId]][1].amount)
+			player:addItem(products[answerType[playerId]][2].id, products[answerType[playerId]][2].amount)
+			player:addItem(products[answerType[playerId]][3].id, products[answerType[playerId]][3].amount)
 			npcHandler:say("There it is.", npc, creature)
 			npcHandler:setTopic(playerId, 0)
 		end
