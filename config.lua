@@ -57,8 +57,8 @@ cleanProtectionZones = false
 -- NOTE: maxPlayers set to 0 means no limit
 -- NOTE: MaxPacketsPerSeconds if you change you will be subject to bugs by WPE, keep the default value of 25,
 -- It's recommended to use a range like min 50 in this function, otherwise you will be disconnected after equipping two-handed distance weapons.
-ip = "caronot.servegame.com"
 -- ip = "127.0.0.1"
+ip = "caronot.servegame.com"
 allowOldProtocol = false
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
@@ -162,7 +162,7 @@ forgeMaxSlivers = 50
 forgeInfluencedLimit = 900
 forgeFiendishLimit = 10
 forgeFiendishIntervalType = "minute"
-forgeFiendishIntervalTime = "30"
+forgeFiendishIntervalTime = "20"
 
 ruseChanceFormulaA = 0.0307576
 ruseChanceFormulaB = 0.440697
