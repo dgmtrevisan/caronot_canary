@@ -147,7 +147,6 @@ local products = {
 }
 
 local answerType = {}
-local answerLevel = {}
 local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 
