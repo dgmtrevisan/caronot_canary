@@ -18,8 +18,6 @@ npcConfig.flags = {
 	floorchange = false,
 }
 
-npcConfig.currency = 3031
-
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
 	npc:sellItem(player, itemId, amount, subType, 0, ignore, inBackpacks)

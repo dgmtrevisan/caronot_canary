@@ -18,7 +18,7 @@ npcConfig.flags = {
 	floorchange = false,
 }
 
-npcConfig.currency = 3031
+npcConfig.currency = 22516
 
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
@@ -95,7 +95,23 @@ addons = {
     },
 }
 
-local answerType = {}
+gems = {
+    ['lesser guardian gem'] = { item = 44602, price = 10 },
+    ['guardian gem'] = { item = 44603, price = 20 },
+    ['greater guardian gem'] = { item = 44604, price = 30 },
+    ['lesser marksman gem'] = { item = 44605, price = 10 },
+    ['marksman gem'] = { item = 44606, price = 20 },
+    ['greater marksman gem'] = { item = 44607, price = 30 },
+    ['lesser mystic gem'] = { item = 44611, price = 10 },
+    ['mystic gem'] = { item = 44612, price = 20 },
+    ['greater mystic gem'] = { item = 44613, price = 30 },
+    ['lesser sage gem'] = { item = 44608, price = 10 },
+    ['sage gem'] = { item = 44609, price = 20 },
+    ['greater sage gem'] = { item = 44610, price = 30 },
+}
+
+local answerAddonType = {}
+local answerGemType = {}
 local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 
@@ -142,15 +158,52 @@ local function creatureSayCallback(npc, creature, type, message)
 		npcHandler:setTopic(playerId, 1)
 	elseif npcHandler:getTopic(playerId) == 1 then
 		local addonType = addons[message:lower()]
-		answerType[playerId] = message:lower()
+		answerAddonType[playerId] = message:lower()
 		if addonType then
-            doPlayerAddOutfit(creature, addons[answerType[playerId]][1].outfit_male, 1)
-            doPlayerAddOutfit(creature, addons[answerType[playerId]][2].outfit_male, 2)
-            doPlayerAddOutfit(creature, addons[answerType[playerId]][1].outfit_female, 1)
-            doPlayerAddOutfit(creature, addons[answerType[playerId]][2].outfit_female, 2)
+            doPlayerAddOutfit(creature, addons[answerAddonType[playerId]][1].outfit_male, 1)
+            doPlayerAddOutfit(creature, addons[answerAddonType[playerId]][2].outfit_male, 2)
+            doPlayerAddOutfit(creature, addons[answerAddonType[playerId]][1].outfit_female, 1)
+            doPlayerAddOutfit(creature, addons[answerAddonType[playerId]][2].outfit_female, 2)
 			npcHandler:say("There it is.", npc, creature)
 		end
-	end
+    elseif MsgContains(message, "trade") then
+		npcHandler:say({ "Do you want to {buy} or {sell} gems?" }, npc, creature)
+		npcHandler:setTopic(playerId, 2)
+    elseif npcHandler:getTopic(playerId) == 2 then
+        if MsgContains(message, "buy") then
+			npcHandler:say({ "I have this gems {Lesser Guardian Gem}, {Guardian Gem}, {Greater Guardian Gem}, {Lesser Marksman Gem}, {Marksman Gem}, {Greater Marksman Gem}, {Lesser Mystic Gem}, {Mystic Gem}, {Greater Mystic Gem}, {Lesser Sage Gem}, {Sage Gem} and {Greater Sage Gem}. Make your choice, please!" }, npc, creature)
+		    npcHandler:setTopic(playerId, 3)
+		elseif MsgContains(message, "sell") then
+			npcHandler:say({ "I can buy these gems {Lesser Guardian Gem}, {Guardian Gem}, {Greater Guardian Gem}, {Lesser Marksman Gem}, {Marksman Gem}, {Greater Marksman Gem}, {Lesser Mystic Gem}, {Mystic Gem}, {Greater Mystic Gem}, {Lesser Sage Gem}, {Sage Gem} and {Greater Sage Gem}. Make your choice, please!" }, npc, creature)
+		    npcHandler:setTopic(playerId, 4)
+		end
+	elseif npcHandler:getTopic(playerId) == 3 then
+        local gemType = gems[message:lower()]
+		answerGemType[playerId] = message:lower()
+		if gemType then
+            if player:getItemCount(npc:getCurrency()) >= gems[answerGemType[playerId]].price then
+                player:addItem(gems[answerGemType[playerId]].item, 1)
+                player:removeItem(npc:getCurrency(), gems[answerGemType[playerId]].price)
+                npcHandler:say("There it is.", npc, creature)
+                npcHandler:setTopic(playerId, 0)
+            else
+                npcHandler:say("I'm sorry but it seems you don't have enough " .. ItemType(npc:getCurrency()):getPluralName():lower() .. ". Bring me " .. gems[answerGemType[playerId]].price .. " of them and we'll make a trade.", npc, creature)
+            end
+		end
+    elseif npcHandler:getTopic(playerId) == 4 then
+        local gemType = gems[message:lower()]
+        answerGemType[playerId] = message:lower()
+        if gemType then
+            if player:getItemCount(gems[answerGemType[playerId]].item) >= 1 then
+                player:removeItem(gems[answerGemType[playerId]].item, 1)
+                player:addItem(npc:getCurrency(), gems[answerGemType[playerId]].price)
+                npcHandler:say("There it is.", npc, creature)
+                npcHandler:setTopic(playerId, 0)
+            else
+                npcHandler:say("I'm sorry but it seems you don't have a " .. answerGemType[playerId] .. ". Bring me one of them and we'll make a trade.", npc, creature)
+            end
+        end
+    end
 	return true
 end
 
