@@ -2950,6 +2950,15 @@ Storage = {
 				AccessDoor = 47952,
 			},
 		},
+		Caronot = { -- Exclusive Caronot quests
+			TheFourGuardians = {
+				QuestLine = 2704202500,
+				Firstheart = 2704202501,
+				Secondheart = 2704202502,
+				Thirdheart = 2704202503,
+				Fourthheart = 2704202504,
+			},
+		},
 	},
 	-- Reserved storage from 63951 - 63999
 	ThaisExhibition = {

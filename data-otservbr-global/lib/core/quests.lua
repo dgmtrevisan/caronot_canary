@@ -6701,5 +6701,56 @@ if not Quests then
 				},
 			},
 		},
+		[51] = {
+			name = "The Four Guardians",
+			startStorageId = Storage.Quest.Caronot.TheFourGuardians.QuestLine,
+			startStorageValue = 1,
+			missions = {
+				[1] = {
+					name = "Desert",
+					storageId = Storage.Quest.Caronot.TheFourGuardians.Firstheart,
+					missionId = Storage.Quest.Caronot.TheFourGuardians.Firstheart,
+					startValue = 1,
+					endValue = 2,
+					states = {
+						[1] = "Beneath the scorching sun lies an ancient site buried by sand. It is said that the Serpent dwells there, guardian of a fragment of lost power. Only the most resilient will survive the heat and fury of the desert.",
+						[2] = "Take the serpent's heart to King Caronot",
+					},
+				},
+				[2] = {
+					name = "Forest",
+					storageId = Storage.Quest.Caronot.TheFourGuardians.Secondheart,
+					missionId = Storage.Quest.Caronot.TheFourGuardians.Secondheart,
+					startValue = 1,
+					endValue = 2,
+					states = {
+						[1] = "Between the twisted trees and the whispers of the wind, a forest grows where the light barely penetrates. An ancient being rests there, made of roots and resentment. Those who disturb the forest must be ready to face its wrath.",
+						[2] = "Take the ancestor's heart to King Caronot",
+					},
+				},
+				[3] = {
+					name = "Cave",
+					storageId = Storage.Quest.Caronot.TheFourGuardians.Thirdheart,
+					missionId = Storage.Quest.Caronot.TheFourGuardians.Thirdheart,
+					startValue = 1,
+					endValue = 2,
+					states = {
+						[1] = "In the heart of a frozen island, where even time seems to freeze, there is a cave where the air cuts like blades. A sleeping monster awaits the brave who dares to take its icy heart.",
+						[2] = "Take the monster's heart to King Caronot",
+					},
+				},
+				[4] = {
+					name = "Mountain",
+					storageId = Storage.Quest.Caronot.TheFourGuardians.Fourthheart,
+					missionId = Storage.Quest.Caronot.TheFourGuardians.Fourthheart,
+					startValue = 1,
+					endValue = 2,
+					states = {
+						[1] = "High in the mountains, amidst lightning and eternal mist, rises a forbidden peak. The dragon's roar echoes through the valleys below. Only he who defies the heavens may claim its heart.",
+						[2] = "Take the dragon's heart to King Caronot",
+					},
+				},
+			},
+		},
 	}
 end
