@@ -328,7 +328,7 @@ toggleSaveAsync = false
 toggleSaveInterval = true
 saveIntervalType = "hour"
 toggleSaveIntervalCleanMap = true
-saveIntervalTime = 1
+saveIntervalTime = 6
 
 -- Imbuement
 toggleImbuementShrineStorage = false
@@ -443,7 +443,7 @@ resetSessionsOnStartup = false
 allowChangeOutfit = true
 toggleMountInProtectionZone = false
 freePremium = true
-kickIdlePlayerAfterMinutes = 15
+kickIdlePlayerAfterMinutes = 120
 maxMessageBuffer = 4
 emoteSpells = false
 allowWalkthrough = true
