@@ -17,7 +17,6 @@ local chargeItem = {
 function refill.onSay(player, words, param)
 	logger.debug("!refill executed")
 	local refilledItems = {}
-	local totalCost = 0
 	for itemName, itemData in pairs(chargeItem) do
 		local chargeableCount = player:getItemCount(itemData.noChargeID)
 		if chargeableCount >= 1 then
@@ -30,7 +29,7 @@ function refill.onSay(player, words, param)
 		player:sendTextMessage(MESSAGE_LOOK, "You do not have any items to refill or lack silver tokens.")
 	else
 		local itemList = table.concat(refilledItems, ", ")
-		player:sendTextMessage(MESSAGE_LOOK, "Refilled " .. itemList .. " for a total of " .. totalCost .. " silver tokens.")
+		player:sendTextMessage(MESSAGE_LOOK, "Refilled " .. itemList .. ".")
 	end
 	return true
 end
