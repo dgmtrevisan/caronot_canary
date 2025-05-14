@@ -50,6 +50,8 @@ npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 npcConfig.shop = {	
 	{ itemName = "minor crystalline token", clientId = 16128, buy = 1 },
 	{ itemName = "major crystalline token", clientId = 16129, buy = 1 },
+	{ itemName = "demonic essence", clientId = 6499, buy = 1 },
+	{ itemName = "reinvigorating seeds", clientId = 23811, buy = 1 },
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
