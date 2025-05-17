@@ -52,6 +52,10 @@ npcConfig.shop = {
 	{ itemName = "major crystalline token", clientId = 16129, buy = 1 },
 	{ itemName = "demonic essence", clientId = 6499, buy = 1 },
 	{ itemName = "reinvigorating seeds", clientId = 23811, buy = 1 },
+	{ itemName = "silver prison key", clientId = 20270, buy = 1 },
+	{ itemName = "copper prison key", clientId = 20271, buy = 1 },
+	{ itemName = "bronze prison key", clientId = 20272, buy = 1 },
+	{ itemName = "golden prison key", clientId = 20273, buy = 1 },
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
