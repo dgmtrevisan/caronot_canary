@@ -56,6 +56,7 @@ npcConfig.shop = {
 	{ itemName = "copper prison key", clientId = 20271, buy = 1 },
 	{ itemName = "bronze prison key", clientId = 20272, buy = 1 },
 	{ itemName = "golden prison key", clientId = 20273, buy = 1 },
+	{ itemName = "suspicious device", clientId = 27653, buy = 1 },
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
