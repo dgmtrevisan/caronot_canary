@@ -2660,7 +2660,9 @@
 		<attribute key="absorbpercentfire" value="-5"/>
 		<attribute key="armor" value="2"/>
 		<attribute key="weight" value="750"/>
-		<attribute key="imbuementslot" value="1"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase speed" value="3"/>
+		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="35"/>
 			<attribute key="slot" value="feet"/>
@@ -2740,7 +2742,9 @@
 		<attribute key="absorbpercentenergy" value="-5"/>
 		<attribute key="armor" value="2"/>
 		<attribute key="weight" value="750"/>
-		<attribute key="imbuementslot" value="1"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase speed" value="3"/>
+		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="35"/>
 			<attribute key="slot" value="feet"/>
@@ -6747,6 +6751,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -7188,8 +7193,14 @@
 		<attribute key="range" value="3"/>
 		<attribute key="weight" value="2300"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -7219,7 +7230,9 @@
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="speed" value="20"/>
 		<attribute key="weight" value="750"/>
-		<attribute key="imbuementslot" value="1"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase speed" value="3"/>
+		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="feet"/>
 		</attribute>
@@ -7476,7 +7489,15 @@
 		<attribute key="primarytype" value="spellbooks"/>
 		<attribute key="defense" value="14"/>
 		<attribute key="weight" value="1800"/>
-		<attribute key="imbuementslot" value="1"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+		</attribute>
 	</item>
 	<item id="3102" article="a" name="paw amulet">
 		<attribute key="primarytype" value="amulets and necklaces"/>
@@ -7945,6 +7966,11 @@
 		<attribute key="weight" value="700"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -8243,6 +8269,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="weaponType" value="sword"/>
@@ -8336,6 +8366,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="weaponType" value="sword"/>
@@ -8443,7 +8477,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="50"/>
@@ -8482,6 +8520,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="55"/>
@@ -8578,6 +8620,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="80"/>
@@ -8666,6 +8712,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="30"/>
@@ -8753,6 +8803,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="weaponType" value="sword"/>
@@ -8772,7 +8826,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="60"/>
@@ -8793,7 +8851,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="95"/>
@@ -8872,7 +8934,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="85"/>
@@ -8904,7 +8970,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="20"/>
@@ -8926,7 +8996,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="45"/>
@@ -8973,7 +9047,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="55"/>
@@ -9004,7 +9082,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="20"/>
@@ -9025,7 +9107,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="25"/>
@@ -9047,7 +9133,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="90"/>
@@ -9111,7 +9201,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="20"/>
@@ -9133,7 +9227,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="30"/>
@@ -9165,6 +9263,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="30"/>
@@ -9231,7 +9333,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="70"/>
@@ -9251,7 +9357,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="65"/>
@@ -9272,7 +9382,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="35"/>
@@ -9307,7 +9421,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="50"/>
@@ -9364,6 +9482,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="35"/>
@@ -9385,7 +9507,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="70"/>
@@ -9406,7 +9532,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="75"/>
@@ -9427,7 +9557,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="65"/>
@@ -9463,7 +9597,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="30"/>
@@ -9535,7 +9673,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="weaponType" value="distance"/>
@@ -9696,6 +9838,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -9747,6 +9890,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -9914,6 +10058,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -9949,6 +10094,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -9998,6 +10144,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -10015,6 +10162,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -10031,6 +10179,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -10076,6 +10225,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -10209,6 +10359,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -11287,6 +11438,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -12116,7 +12268,9 @@
 		<attribute key="speed" value="15"/>
 		<attribute key="armor" value="3"/>
 		<attribute key="weight" value="2500"/>
-		<attribute key="imbuementslot" value="1"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase speed" value="3"/>
+		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="80"/>
 			<attribute key="slot" value="feet"/>
@@ -15470,6 +15624,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -17950,6 +18105,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="75"/>
@@ -18076,7 +18235,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="75"/>
@@ -19349,7 +19512,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="35"/>
@@ -19385,6 +19552,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="60"/>
@@ -19406,6 +19577,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="50"/>
@@ -19428,6 +19603,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="60"/>
@@ -19449,6 +19628,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="20"/>
@@ -19513,7 +19696,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="60"/>
@@ -19549,6 +19736,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="50"/>
@@ -19570,7 +19761,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="35"/>
@@ -19627,6 +19822,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="45"/>
@@ -19648,6 +19847,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="65"/>
@@ -19669,6 +19872,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="40"/>
@@ -19690,6 +19897,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="70"/>
@@ -19712,6 +19923,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="35"/>
@@ -19733,6 +19948,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="30"/>
@@ -19754,6 +19973,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="25"/>
@@ -19786,7 +20009,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="55"/>
@@ -19820,7 +20047,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="45"/>
@@ -19856,7 +20087,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="60"/>
@@ -19878,7 +20113,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="60"/>
@@ -19900,6 +20139,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="55"/>
@@ -19921,6 +20164,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="65"/>
@@ -19942,6 +20189,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="70"/>
@@ -19962,7 +20213,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="40"/>
@@ -19995,7 +20250,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="65"/>
@@ -20030,7 +20289,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="85"/>
@@ -20051,7 +20314,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="30"/>
@@ -20084,7 +20351,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="40"/>
@@ -20134,7 +20405,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="75"/>
@@ -20155,7 +20430,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="30"/>
@@ -20176,7 +20455,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="80"/>
@@ -20226,7 +20509,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="75"/>
@@ -20247,7 +20534,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="85"/>
@@ -20282,7 +20573,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="30"/>
@@ -20305,7 +20600,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="weaponType" value="distance"/>
@@ -20391,7 +20690,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="35"/>
@@ -20412,7 +20715,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="30"/>
@@ -20433,7 +20740,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="85"/>
@@ -20468,7 +20779,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="80"/>
@@ -20488,7 +20803,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="35"/>
@@ -20503,7 +20822,9 @@
 		<attribute key="speed" value="-6"/>
 		<attribute key="armor" value="2"/>
 		<attribute key="weight" value="1200"/>
-		<attribute key="imbuementslot" value="1"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase speed" value="3"/>
+		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="feet"/>
 		</attribute>
@@ -20520,6 +20841,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -21310,6 +21632,11 @@
 		<attribute key="weight" value="900"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -21391,7 +21718,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="45"/>
@@ -21413,7 +21744,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="60"/>
@@ -21436,7 +21771,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="130"/>
@@ -21458,7 +21797,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="100"/>
@@ -21479,7 +21822,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="80"/>
@@ -21502,7 +21849,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="80"/>
@@ -21525,7 +21876,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="50"/>
@@ -21561,7 +21916,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="40"/>
@@ -22095,8 +22454,14 @@
 		<attribute key="range" value="3"/>
 		<attribute key="weight" value="2900"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -22118,8 +22483,14 @@
 		<attribute key="range" value="3"/>
 		<attribute key="weight" value="2900"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -22175,8 +22546,14 @@
 		<attribute key="range" value="3"/>
 		<attribute key="weight" value="2550"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -22197,8 +22574,14 @@
 		<attribute key="range" value="3"/>
 		<attribute key="weight" value="2700"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -22219,8 +22602,14 @@
 		<attribute key="range" value="3"/>
 		<attribute key="weight" value="2850"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -22255,7 +22644,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="110"/>
@@ -22277,7 +22670,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="130"/>
@@ -22298,7 +22695,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -22333,7 +22734,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="100"/>
@@ -22353,7 +22758,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="100"/>
@@ -22375,6 +22784,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="100"/>
@@ -22395,6 +22808,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -23489,6 +23906,11 @@
 		<attribute key="weight" value="3500"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -24308,6 +24730,11 @@
 		<attribute key="weight" value="600"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -25152,6 +25579,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -25210,7 +25638,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="weaponType" value="distance"/>
@@ -25263,6 +25695,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -25279,6 +25712,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -25927,6 +26361,11 @@
 		<attribute key="weight" value="780"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -26833,7 +27272,9 @@
 		<attribute key="absorbpercentholy" value="-2"/>
 		<attribute key="armor" value="3"/>
 		<attribute key="weight" value="2250"/>
-		<attribute key="imbuementslot" value="1"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase speed" value="3"/>
+		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="70"/>
 			<attribute key="slot" value="feet"/>
@@ -27115,6 +27556,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -27126,7 +27568,9 @@
 		<attribute key="speed" value="5"/>
 		<attribute key="armor" value="1"/>
 		<attribute key="weight" value="700"/>
-		<attribute key="imbuementslot" value="1"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase speed" value="3"/>
+		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="feet"/>
 		</attribute>
@@ -27152,7 +27596,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="60"/>
@@ -27187,6 +27635,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="55"/>
@@ -27222,6 +27674,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="20"/>
@@ -27301,7 +27757,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="25"/>
@@ -27512,6 +27972,11 @@
 		<attribute key="weight" value="900"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -28805,6 +29270,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="58"/>
@@ -29002,6 +29471,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="100"/>
@@ -29037,7 +29507,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="82"/>
@@ -29058,6 +29532,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="82"/>
@@ -31901,6 +32379,7 @@
 		<attribute key="weight" value="14500"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
@@ -31943,7 +32422,9 @@
 		<attribute key="speed" value="-5"/>
 		<attribute key="armor" value="3"/>
 		<attribute key="weight" value="3700"/>
-		<attribute key="imbuementslot" value="1"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase speed" value="3"/>
+		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="150"/>
 			<attribute key="slot" value="feet"/>
@@ -32016,7 +32497,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="90"/>
@@ -32185,7 +32670,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="40"/>
@@ -32363,7 +32852,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="70"/>
@@ -32575,7 +33068,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="85"/>
@@ -32633,7 +33130,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="48"/>
@@ -32852,7 +33353,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="150"/>
@@ -34485,7 +34990,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -34507,7 +35016,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -34546,7 +35059,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="105"/>
@@ -34604,6 +35121,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -35912,7 +36433,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="15"/>
@@ -36051,6 +36576,7 @@
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -39334,7 +39860,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="70"/>
@@ -39400,7 +39930,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="unproperly" value="true"/>
@@ -39541,7 +40075,17 @@
 		<attribute key="attack" value="50"/>
 		<attribute key="defense" value="30"/>
 		<attribute key="weight" value="4000"/>
-		<attribute key="imbuementslot" value="2"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="75"/>
 			<attribute key="unproperly" value="true"/>
@@ -39831,6 +40375,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -39854,6 +40402,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -39890,6 +40442,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -39912,6 +40468,10 @@
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -39947,7 +40507,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -39970,7 +40534,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -40006,7 +40574,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -40028,7 +40600,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -40064,7 +40640,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -40087,7 +40667,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -40123,7 +40707,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -40145,7 +40733,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -40184,7 +40776,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -40208,7 +40804,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -40247,7 +40847,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -40271,7 +40875,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -40308,6 +40916,10 @@
 		<attribute key="weight" value="3500"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 		</attribute>
@@ -40329,6 +40941,10 @@
 		<attribute key="weight" value="3000"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 		</attribute>
@@ -41840,7 +42456,11 @@
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="25"/>
@@ -43447,7 +44067,9 @@ Awarded by TibiaMagazine.com.ve"/>
 		<attribute key="speed" value="15"/>
 		<attribute key="armor" value="2"/>
 		<attribute key="weight" value="500"/>
-		<attribute key="imbuementslot" value="1"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase speed" value="3"/>
+		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="80"/>
 			<attribute key="slot" value="feet"/>
@@ -44271,8 +44893,14 @@ Awarded by TibiaMisterios.com.br"/>
 		<attribute key="range" value="3"/>
 		<attribute key="weight" value="2900"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -44335,6 +44963,7 @@ Awarded by TibiaMisterios.com.br"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -45092,7 +45721,11 @@ Awarded by TibiaMisterios.com.br"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="70"/>
@@ -45202,6 +45835,7 @@ Awarded by TibiaMisterios.com.br"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -45311,7 +45945,11 @@ Awarded by TibiaMisterios.com.br"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="150"/>
@@ -45586,7 +46224,11 @@ Awarded by TibiaMisterios.com.br"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -45609,7 +46251,11 @@ Awarded by TibiaMisterios.com.br"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120"/>
@@ -48716,8 +49362,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="5"/>
 		<attribute key="weight" value="3200"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -51632,6 +52284,10 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="200"/>
@@ -51653,6 +52309,10 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="200"/>
@@ -51671,7 +52331,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="200"/>
@@ -51692,7 +52356,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="200"/>
@@ -51711,7 +52379,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="200"/>
@@ -51732,7 +52404,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="200"/>
@@ -51754,7 +52430,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="200"/>
@@ -51776,7 +52456,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="200"/>
@@ -51792,9 +52476,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="4"/>
 		<attribute key="weight" value="3500"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -51815,9 +52504,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="4"/>
 		<attribute key="weight" value="3500"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -52429,6 +53123,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="weight" value="2400"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -52450,6 +53149,8 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="elemental protection death" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -52506,10 +53207,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="29"/>
 		<attribute key="weight" value="8500"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -54018,6 +54724,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="weight" value="1300"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -54041,7 +54752,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
-			<attribute key="skillboost magic level" value="2"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="300"/>
@@ -54058,9 +54769,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="5"/>
 		<attribute key="weight" value="3700"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -54083,9 +54799,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="5"/>
 		<attribute key="weight" value="3300"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -54115,7 +54836,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300"/>
@@ -54220,6 +54945,10 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300"/>
@@ -54239,10 +54968,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="33"/>
 		<attribute key="weight" value="9500"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300"/>
@@ -54262,10 +54996,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="33"/>
 		<attribute key="weight" value="6800"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300"/>
@@ -54661,9 +55400,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="6"/>
 		<attribute key="weight" value="3200"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -54688,9 +55432,13 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="5"/>
 		<attribute key="weight" value="3300"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -54714,10 +55462,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="armor" value="1"/>
 		<attribute key="weight" value="18000"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="80"/>
@@ -54735,10 +55488,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="armor" value="1"/>
 		<attribute key="weight" value="18000"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="80"/>
@@ -54756,10 +55514,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="armor" value="1"/>
 		<attribute key="weight" value="18000"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="80"/>
@@ -54777,10 +55540,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="armor" value="1"/>
 		<attribute key="weight" value="18000"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="80"/>
@@ -55378,7 +56146,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="220"/>
@@ -55397,6 +56169,8 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="life leech" value="3"/>
 			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
 			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
@@ -55418,10 +56192,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="33"/>
 		<attribute key="weight" value="8900"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="230"/>
@@ -55440,6 +56219,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="weight" value="3500"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
 			<attribute key="elemental protection energy" value="3"/>
@@ -55462,10 +56242,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="20"/>
 		<attribute key="weight" value="4300"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="200"/>
@@ -55485,10 +56270,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="22"/>
 		<attribute key="weight" value="4300"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="200"/>
@@ -55510,6 +56300,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -55541,9 +56332,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="5"/>
 		<attribute key="weight" value="2700"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -55565,6 +56361,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="weight" value="2700"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
 			<attribute key="elemental protection energy" value="3"/>
@@ -55590,6 +56387,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="180"/>
@@ -55651,6 +56449,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 		</attribute>
@@ -57224,7 +58023,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="220"/>
@@ -57240,7 +58043,9 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="speed" value="10"/>
 		<attribute key="armor" value="3"/>
 		<attribute key="weight" value="900"/>
-		<attribute key="imbuementslot" value="1"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase speed" value="3"/>
+		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="220"/>
 			<attribute key="slot" value="feet"/>
@@ -57256,10 +58061,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="29"/>
 		<attribute key="weight" value="2500"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="220"/>
@@ -57278,10 +58088,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="29"/>
 		<attribute key="weight" value="4000"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="220"/>
@@ -57307,6 +58122,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="270"/>
@@ -57327,6 +58143,10 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="220"/>
@@ -57346,8 +58166,13 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="4"/>
 		<attribute key="weight" value="1900"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -57371,8 +58196,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="5"/>
 		<attribute key="weight" value="2500"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -58992,6 +59823,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="230"/>
@@ -59009,6 +59841,8 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="life leech" value="3"/>
 			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
 			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
@@ -59030,6 +59864,8 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="elemental protection death" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -59048,10 +59884,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="27"/>
 		<attribute key="weight" value="4100"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="220"/>
@@ -59076,7 +59917,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -59094,6 +59939,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="weight" value="2300"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -59110,6 +59960,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="weight" value="5200"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="life leech" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
@@ -59213,10 +60064,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="32"/>
 		<attribute key="weight" value="8100"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -61659,10 +62515,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="32"/>
 		<attribute key="weight" value="7200"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="180"/>
@@ -63922,10 +64783,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="32"/>
 		<attribute key="weight" value="6300"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="400"/>
@@ -63947,10 +64813,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="35"/>
 		<attribute key="weight" value="8100"/>
 		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="400"/>
@@ -63973,10 +64843,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="32"/>
 		<attribute key="weight" value="4000"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="400"/>
@@ -63998,10 +64873,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="34"/>
 		<attribute key="weight" value="7200"/>
 		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="400"/>
@@ -64024,10 +64903,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="33"/>
 		<attribute key="weight" value="4100"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="400"/>
@@ -64049,10 +64933,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="35"/>
 		<attribute key="weight" value="8900"/>
 		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="400"/>
@@ -64078,8 +64966,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="400"/>
@@ -64105,8 +64996,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="400"/>
@@ -64126,8 +65020,13 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="6"/>
 		<attribute key="weight" value="1900"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -64154,8 +65053,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="6"/>
 		<attribute key="weight" value="2500"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -64204,6 +65109,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="elemental protection death" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
 			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
@@ -64243,6 +65149,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="weight" value="2400"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
@@ -64522,7 +65429,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="270"/>
@@ -64541,8 +65452,13 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="5"/>
 		<attribute key="weight" value="2600"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -64566,8 +65482,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="5"/>
 		<attribute key="weight" value="2100"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -64641,6 +65563,10 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="270"/>
@@ -64664,7 +65590,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
-			<attribute key="skillboost magic level" value="2"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -64998,10 +65924,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="31"/>
 		<attribute key="weight" value="7900"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="270"/>
@@ -65021,10 +65952,15 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="defense" value="31"/>
 		<attribute key="weight" value="6500"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="270"/>
@@ -65843,10 +66779,15 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="defense" value="31"/>
 		<attribute key="weight" value="8900"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="150"/>
@@ -65868,7 +66809,11 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="150"/>
@@ -65917,7 +66862,11 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="150"/>
@@ -65965,8 +66914,14 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="range" value="4"/>
 		<attribute key="weight" value="3700"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -65989,8 +66944,14 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="range" value="4"/>
 		<attribute key="weight" value="3200"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -67312,10 +68273,15 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="cleavepercent" value="3"/>
 		<attribute key="weight" value="8500"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="270"/>
@@ -67336,10 +68302,15 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="cleavepercent" value="3"/>
 		<attribute key="weight" value="8600"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="270"/>
@@ -67359,10 +68330,15 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="cleavepercent" value="3"/>
 		<attribute key="weight" value="8200"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="270"/>
@@ -67383,10 +68359,15 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="cleavepercent" value="3"/>
 		<attribute key="weight" value="8300"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="270"/>
@@ -67410,7 +68391,11 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="270"/>
@@ -67434,7 +68419,11 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="270"/>
@@ -67479,7 +68468,11 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -67505,7 +68498,11 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -67552,8 +68549,14 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="perfectshotrange" value="4"/>
 		<attribute key="weight" value="3600"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -67580,8 +68583,14 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="perfectshotrange" value="4"/>
 		<attribute key="weight" value="3700"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -67609,6 +68618,7 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="250"/>
@@ -67629,6 +68639,7 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="250"/>
@@ -67648,6 +68659,7 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="weight" value="2800"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
 			<attribute key="elemental protection energy" value="3"/>
@@ -67673,6 +68685,7 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
 			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
@@ -67694,12 +68707,15 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="range" value="4"/>
 		<attribute key="weight" value="3500"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="skillboost axe" value="3"/>
+			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
-			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -67724,12 +68740,15 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="range" value="4"/>
 		<attribute key="weight" value="3600"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="skillboost axe" value="3"/>
+			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
-			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250"/>
@@ -70535,12 +71554,13 @@ Granted by TibiaGoals.com"/>
 		<attribute key="armor" value="10"/>
 		<attribute key="weight" value="2950"/>
 		<attribute key="imbuementslot" value="2">
-			<attribute key="mana leech" value="3"/>
-			<attribute key="skillboost axe" value="3"/>
-			<attribute key="skillboost sword" value="3"/>
-			<attribute key="skillboost club" value="3"/>
-			<attribute key="skillboost shielding" value="3"/>
-			<attribute key="skillboost distance" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="head"/>
@@ -71319,7 +72339,8 @@ Granted by TibiaGoals.com"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
-			<attribute key="skillboost magic level" value="2"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="400"/>
@@ -71346,7 +72367,8 @@ Granted by TibiaGoals.com"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
-			<attribute key="skillboost magic level" value="2"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="400"/>
@@ -71379,7 +72401,11 @@ Granted by TibiaGoals.com"/>
 		<attribute key="weight" value="1500"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -71401,6 +72427,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
 			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
@@ -71422,7 +72449,11 @@ Granted by TibiaGoals.com"/>
 		<attribute key="weight" value="1200"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -71446,6 +72477,7 @@ Granted by TibiaGoals.com"/>
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 		</attribute>
@@ -71465,10 +72497,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="defense" value="31"/>
 		<attribute key="weight" value="5200"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300"/>
@@ -71488,10 +72525,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="defense" value="31"/>
 		<attribute key="weight" value="5500"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300"/>
@@ -71514,7 +72556,11 @@ Granted by TibiaGoals.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300"/>
@@ -71555,7 +72601,11 @@ Granted by TibiaGoals.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300"/>
@@ -71603,9 +72653,14 @@ Granted by TibiaGoals.com"/>
 		<attribute key="range" value="6"/>
 		<attribute key="weight" value="2800"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -71630,9 +72685,14 @@ Granted by TibiaGoals.com"/>
 		<attribute key="range" value="5"/>
 		<attribute key="weight" value="2900"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -71657,6 +72717,8 @@ Granted by TibiaGoals.com"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="life leech" value="3"/>
 			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
 			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
@@ -73886,7 +74948,7 @@ Granted by TibiaGoals.com"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
-			<attribute key="skillboost magic level" value="2"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="250"/>
@@ -73933,6 +74995,7 @@ Granted by TibiaGoals.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="elemental protection death" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
 			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
@@ -73983,6 +75046,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
 			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
@@ -75533,10 +76597,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillsword" value="5"/>
 		<attribute key="weight" value="6100"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
@@ -75565,10 +76634,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillsword" value="5"/>
 		<attribute key="weight" value="6000"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
@@ -75597,10 +76671,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillclub" value="5"/>
 		<attribute key="weight" value="6900"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
@@ -75629,10 +76708,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillclub" value="5"/>
 		<attribute key="weight" value="6800"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
@@ -75661,10 +76745,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillaxe" value="5"/>
 		<attribute key="weight" value="7200"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
@@ -75693,10 +76782,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillaxe" value="5"/>
 		<attribute key="weight" value="7200"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
@@ -75723,10 +76817,14 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillsword" value="5"/>
 		<attribute key="weight" value="8100"/>
 		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
@@ -75752,10 +76850,14 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillsword" value="5"/>
 		<attribute key="weight" value="7900"/>
 		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
@@ -75781,10 +76883,14 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillclub" value="5"/>
 		<attribute key="weight" value="9300"/>
 		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
@@ -75810,10 +76916,14 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillclub" value="5"/>
 		<attribute key="weight" value="9100"/>
 		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
@@ -75839,10 +76949,14 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillaxe" value="5"/>
 		<attribute key="weight" value="8500"/>
 		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
@@ -75868,10 +76982,14 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillaxe" value="5"/>
 		<attribute key="weight" value="8300"/>
 		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
@@ -75925,8 +77043,11 @@ Granted by TibiaGoals.com"/>
 			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="divine caldera" value="base">
@@ -75957,8 +77078,11 @@ Granted by TibiaGoals.com"/>
 			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="divine caldera" value="base">
@@ -75989,8 +77113,11 @@ Granted by TibiaGoals.com"/>
 			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="divine caldera" value="base">
@@ -76021,8 +77148,11 @@ Granted by TibiaGoals.com"/>
 			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="divine caldera" value="base">
@@ -76075,8 +77205,13 @@ Granted by TibiaGoals.com"/>
 		<attribute key="criticalhitchance" value="1000"/>
 		<attribute key="weight" value="2200"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
@@ -76116,8 +77251,13 @@ Granted by TibiaGoals.com"/>
 		<attribute key="criticalhitchance" value="1000"/>
 		<attribute key="weight" value="2100"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
@@ -76150,7 +77290,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="armor" value="3"/>
 		<attribute key="weight" value="1900"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase speed" value="10"/>
+			<attribute key="increase speed" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="avatar of storm" value="cooldown">
@@ -76186,8 +77326,13 @@ Granted by TibiaGoals.com"/>
 		<attribute key="criticalhitchance" value="1000"/>
 		<attribute key="weight" value="2500"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
@@ -76227,8 +77372,13 @@ Granted by TibiaGoals.com"/>
 		<attribute key="criticalhitchance" value="1000"/>
 		<attribute key="weight" value="2400"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
@@ -76261,7 +77411,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="armor" value="3"/>
 		<attribute key="weight" value="1700"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase speed" value="10"/>
+			<attribute key="increase speed" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="avatar of nature" value="cooldown">
@@ -76599,7 +77749,7 @@ Granted by TibiaGoals.com"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
-			<attribute key="skillboost magic level" value="2"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="divine missile" value="base">
@@ -76625,7 +77775,7 @@ Granted by TibiaGoals.com"/>
 			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
-			<attribute key="skillboost magic level" value="2"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="wrath of nature" value="critical extra damage">
@@ -76697,7 +77847,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skilldist" value="1"/>
 		<attribute key="weight" value="1500"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase speed" value="10"/>
+			<attribute key="increase speed" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="divine missile" value="critical extra damage">
@@ -76717,7 +77867,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="absorbpercentice" value="6"/>
 		<attribute key="weight" value="900"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase speed" value="10"/>
+			<attribute key="increase speed" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="great energy beam" value="critical extra damage">
@@ -77006,10 +78156,11 @@ Granted by TibiaGoals.com"/>
 		<attribute key="weight" value="1500"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
-			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
@@ -77037,10 +78188,11 @@ Granted by TibiaGoals.com"/>
 		<attribute key="weight" value="1700"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
-			<attribute key="elemental protection energy" value="3"/>
-			<attribute key="elemental protection ice" value="3"/>
-			<attribute key="elemental protection holy" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
@@ -77099,6 +78251,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="elemental protection ice" value="3"/>
 			<attribute key="elemental protection energy" value="3"/>
 			<attribute key="elemental protection holy" value="3"/>
@@ -77177,10 +78330,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillsword" value="4"/>
 		<attribute key="weight" value="7200"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="annihilation" value="cooldown">
@@ -77206,10 +78364,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillaxe" value="4"/>
 		<attribute key="weight" value="5900"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="annihilation" value="cooldown">
@@ -77235,10 +78398,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillclub" value="4"/>
 		<attribute key="weight" value="7300"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="annihilation" value="cooldown">
@@ -77271,7 +78439,11 @@ Granted by TibiaGoals.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="divine grenade" value="critical extra damage">
@@ -77295,8 +78467,14 @@ Granted by TibiaGoals.com"/>
 		<attribute key="range" value="5"/>
 		<attribute key="weight" value="2200"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
@@ -77326,8 +78504,14 @@ Granted by TibiaGoals.com"/>
 		<attribute key="icemagiclevelpoints" value="2"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
@@ -77356,10 +78540,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillsword" value="4"/>
 		<attribute key="weight" value="5000"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="annihilation" value="cooldown">
@@ -77386,10 +78575,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillaxe" value="4"/>
 		<attribute key="weight" value="5300"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
 			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="annihilation" value="cooldown">
@@ -77416,10 +78610,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="skillclub" value="4"/>
 		<attribute key="weight" value="5800"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
 			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="annihilation" value="cooldown">
@@ -77453,7 +78652,11 @@ Granted by TibiaGoals.com"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost club" value="3"/>
 			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="divine missile" value="critical extra damage">

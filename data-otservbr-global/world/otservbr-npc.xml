@@ -514,7 +514,7 @@
 		<npc name="Mother Of Jack" x="0" y="0" z="6" spawntime="60" />
 	</npc>
 	<npc centerx="33175" centery="31763" centerz="6" radius="1">
-		<npc name="Captain Seahorse" x="0" y="0" z="6" spawntime="60" />
+		<npc name="Lenao de Osasco" x="0" y="0" z="6" spawntime="60" />
 	</npc>
 	<npc centerx="33181" centery="31771" centerz="6" radius="1">
 		<npc name="Guide Jonathan" x="0" y="0" z="6" spawntime="60" />

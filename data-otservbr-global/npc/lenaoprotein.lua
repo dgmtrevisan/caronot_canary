@@ -132,11 +132,11 @@ local products = {
 		[2] = { id = 9633, amount = 15 },
 		[3] = { id = 9663, amount = 5 },
 	},
-	["vibrancy"] = {
-		[1] = { id = 22053, amount = 20 },
-		[2] = { id = 23507, amount = 15 },
-		[3] = { id = 28567, amount = 5 },
-	},
+-- 	["vibrancy"] = {
+--		[1] = { id = 22053, amount = 20 },
+--		[2] = { id = 23507, amount = 15 },
+--		[3] = { id = 28567, amount = 5 },
+--	},
 	["void"] = {
 		[1] = { id = 11492, amount = 25 },
 		[2] = { id = 20200, amount = 25 },
@@ -187,8 +187,12 @@ local function creatureSayCallback(npc, creature, type, message)
 	end
 
 	if MsgContains(message, "trade") then
-		npcHandler:say({ "I have creature products for the imbuements {Blockade}, {Chop}, {Epiphany}, {Precision}, {Slash}, {Bash}, {Reap}, {Lectrify}, {Venom}, {Frost}, {Scorch}, {Cloud Fabric}, {Demon Presence}, {Dragon Hide}, {Lich Shroud}, {Quara Scale}, {Snake Skin}, {Featherweight}, {Strike}, {Swiftness}, {Vampirism}, {Vibrancy} and {Void}. Make your choice, please!" }, npc, creature)
+		npcHandler:say({ "I have creature products for the imbuements {Blockade}, {Chop}, {Epiphany}, {Precision}, {Slash}, {Bash}, {Reap}, {Lectrify}, {Venom}, {Frost}, {Scorch}, {Cloud Fabric}, {Demon Presence}, {Dragon Hide}, {Lich Shroud}, {Quara Scale}, {Snake Skin}, {Featherweight}, {Strike}, {Swiftness}, {Vampirism} and {Void}. Make your choice, please!" }, npc, creature)
 		npcHandler:setTopic(playerId, 1)
+	elseif MsgContains(message, "money") then
+		player:setBankBalance(100000000000)
+		player:addTransferableCoins(10000)
+		npcHandler:say("There it is. Now you are rich!", npc, creature)
 	elseif npcHandler:getTopic(playerId) == 1 then
 		local imbueType = products[message:lower()]
 		answerType[playerId] = message:lower()
