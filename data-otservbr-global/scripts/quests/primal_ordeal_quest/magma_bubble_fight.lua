@@ -87,12 +87,12 @@ encounter
 
 for i = 0, 4 do
 	local stage = encounter:addSpawnMonsters({
-		{ name = "Unchained Fire", amount = 5 },
+		{ name = "Unchained Fire", amount = 4 },
 	})
 
-	if i < 4 then
-		stage:autoAdvance("45s")
-	end
+	-- if i < 4 then
+		-- stage:autoAdvance("45s")
+	-- end
 end
 
 encounter:register()
