@@ -185,7 +185,6 @@ local function creatureSayCallback(npc, creature, type, message)
                 player:addItem(gems[answerGemType[playerId]].item, 1)
                 player:removeItem(npc:getCurrency(), gems[answerGemType[playerId]].price)
                 npcHandler:say("There it is.", npc, creature)
-                npcHandler:setTopic(playerId, 0)
             else
                 npcHandler:say("I'm sorry but it seems you don't have enough " .. ItemType(npc:getCurrency()):getPluralName():lower() .. ". Bring me " .. gems[answerGemType[playerId]].price .. " of them and we'll make a trade.", npc, creature)
             end
@@ -198,7 +197,6 @@ local function creatureSayCallback(npc, creature, type, message)
                 player:removeItem(gems[answerGemType[playerId]].item, 1)
                 player:addItem(npc:getCurrency(), gems[answerGemType[playerId]].price)
                 npcHandler:say("There it is.", npc, creature)
-                npcHandler:setTopic(playerId, 0)
             else
                 npcHandler:say("I'm sorry but it seems you don't have a " .. answerGemType[playerId] .. ". Bring me one of them and we'll make a trade.", npc, creature)
             end
