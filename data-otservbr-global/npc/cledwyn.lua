@@ -41,7 +41,7 @@ npcConfig.shop = {
 	{ itemName = "frostheart platemail", clientId = 22529, buy = 100 },
 	{ itemName = "frostmind raiment", clientId = 22537, buy = 100 },
 	{ itemName = "frostsoul tabard", clientId = 22533, buy = 100 },
-	{ itemName = "magic shield potion", clientId = 35563, buy = 1 },
+	-- { itemName = "magic shield potion", clientId = 35563, buy = 1 },
 	{ itemName = "thunderheart cuirass", clientId = 22524, buy = 100 },
 	{ itemName = "thunderheart hauberk", clientId = 22525, buy = 100 },
 	{ itemName = "thunderheart platemail", clientId = 22526, buy = 100 },
