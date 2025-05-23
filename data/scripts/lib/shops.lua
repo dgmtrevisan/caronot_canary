@@ -135,7 +135,7 @@ SupplyShopConfigTable = {
 		{ itemName = "great spirit potion", clientId = 7642, buy = 254 },
 		{ itemName = "health potion", clientId = 266, buy = 50 },
 		{ itemName = "mana potion", clientId = 268, buy = 56 },
-		{ itemName = "mana shield potion", clientId = 35563, buy = 200000 },
+		-- { itemName = "mana shield potion", clientId = 35563, buy = 200000 },
 		{ itemName = "ultimate health potion", clientId = 7643, buy = 379 },
 		{ itemName = "ultimate mana potion", clientId = 23373, buy = 488 },
 		{ itemName = "ultimate spirit potion", clientId = 23374, buy = 488 },

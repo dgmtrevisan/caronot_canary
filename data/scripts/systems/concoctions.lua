@@ -13,8 +13,9 @@ local configs = {
 	},
 	[Concoction.Ids.KooldownAid] = {
 		callback = function(player)
-			player:clearSpellCooldowns()
-			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your spells are no longer on cooldown.")
+			-- player:clearSpellCooldowns()
+			-- player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your spells are no longer on cooldown.")
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "This item has no effect.")
 		end,
 	},
 	[Concoction.Ids.StrikeEnhancement] = { condition = { CONDITION_PARAM_SKILL_CRITICAL_HIT_CHANCE, 500 } },

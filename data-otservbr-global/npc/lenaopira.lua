@@ -96,6 +96,21 @@ npcConfig.shop = {
 	{ itemName = "axe ring", clientId = 3092, buy = 1 },
 	{ itemName = "club ring", clientId = 3093, buy = 1 },
 	{ itemName = "fire mushroom", clientId = 3731, buy = 1 },
+	{ itemName = "fire resilience", clientId = 36729, buy = 1 },
+	{ itemName = "ice resilience", clientId = 36730, buy = 1 },
+	{ itemName = "earth resilience", clientId = 36731, buy = 1 },
+	{ itemName = "energy resilience", clientId = 36732, buy = 1 },
+	{ itemName = "holy resilience", clientId = 36733, buy = 1 },
+	{ itemName = "death resilience", clientId = 36734, buy = 1 },
+	{ itemName = "physical resilience", clientId = 36735, buy = 1 },
+	{ itemName = "fire amplification", clientId = 36736, buy = 1 },
+	{ itemName = "ice amplification", clientId = 36737, buy = 1 },
+	{ itemName = "earth amplification", clientId = 36738, buy = 1 },
+	{ itemName = "energy amplification", clientId = 36739, buy = 1 },
+	{ itemName = "holy amplification", clientId = 36740, buy = 1 },
+	{ itemName = "death amplification", clientId = 36741, buy = 1 },
+	{ itemName = "physical amplification", clientId = 36742, buy = 1 },
+	{ itemName = "charm upgrade", clientId = 36726, buy = 1 },
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
