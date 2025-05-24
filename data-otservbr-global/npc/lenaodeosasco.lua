@@ -83,13 +83,14 @@ addTravelKeyword("eremo", 1, Position(33314, 31883, 7))
 addTravelKeyword("nargor", 1, Position(32024, 32813, 7))
 addTravelKeyword("kazordoon", 1, Position(32659, 31957, 15))
 addTravelKeyword("chazorai", 1, Position(33102, 31056, 7))
+addTravelKeyword("tyrsung", 1, Position(32333, 31227, 7))
 
 -- Kick
 keywordHandler:addKeyword({ "kick" }, StdModule.kick, { npcHandler = npcHandler, destination = { Position(33174, 31773, 6), Position(33175, 31771, 6), Position(33177, 31772, 6) } })
 
 -- Basic
-keywordHandler:addKeyword({ "sail" }, StdModule.say, { npcHandler = npcHandler, text = "Where do you want to go? To {ab'dendriel}, {edron}, {venore}, {port hope}, {roshamuul}, {svargrond}, {liberty bay}, {yalahar}, {oramond}, {krailos}, {farmine}, {cormaya}, {gnomprona}, {issavi}, {gray island}, {treasure island}, {isle of the kings}, {ingol}, {goroma}, {ankrahmun}, {robsons isle}, {fenrock}, {mistrock}, {eremo}, {nargor}, {kazordoon} and {chazorai}?" })
-keywordHandler:addKeyword({ "passage" }, StdModule.say, { npcHandler = npcHandler, text = "Where do you want to go? To {ab'dendriel}, {edron}, {venore}, {port hope}, {roshamuul}, {svargrond}, {liberty bay}, {yalahar}, {oramond}, {krailos}, {farmine}, {cormaya}, {gnomprona}, {issavi}, {gray island}, {treasure island}, {isle of the kings}, {ingol}, {goroma}, {ankrahmun}, {robsons isle}, {fenrock}, {mistrock}, {eremo}, {nargor}, {kazordoon} and {chazorai}?" })
+keywordHandler:addKeyword({ "sail" }, StdModule.say, { npcHandler = npcHandler, text = "Where do you want to go? To {ab'dendriel}, {edron}, {venore}, {port hope}, {roshamuul}, {svargrond}, {liberty bay}, {yalahar}, {oramond}, {krailos}, {farmine}, {cormaya}, {gnomprona}, {issavi}, {gray island}, {treasure island}, {isle of the kings}, {ingol}, {goroma}, {ankrahmun}, {robsons isle}, {fenrock}, {mistrock}, {eremo}, {nargor}, {kazordoon}, {tyrsung} and {chazorai}?" })
+keywordHandler:addKeyword({ "passage" }, StdModule.say, { npcHandler = npcHandler, text = "Where do you want to go? To {ab'dendriel}, {edron}, {venore}, {port hope}, {roshamuul}, {svargrond}, {liberty bay}, {yalahar}, {oramond}, {krailos}, {farmine}, {cormaya}, {gnomprona}, {issavi}, {gray island}, {treasure island}, {isle of the kings}, {ingol}, {goroma}, {ankrahmun}, {robsons isle}, {fenrock}, {mistrock}, {eremo}, {nargor}, {kazordoon}, {tyrsung} and {chazorai}?" })
 npcHandler:setMessage(MESSAGE_GREET, "Welcome on board, |PLAYERNAME|. Where may I {sail} you today?")
 npcHandler:setMessage(MESSAGE_FAREWELL, "Good bye. Recommend us if you were satisfied with our service.")
 npcHandler:setMessage(MESSAGE_WALKAWAY, "Good bye then.")

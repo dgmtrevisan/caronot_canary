@@ -148,7 +148,7 @@ forgeMaxItemTier = 15
 forgeCostOneSliver = 1
 forgeSliverAmount = 1
 forgeCoreCost = 1
-forgeMaxDust = 1000
+forgeMaxDust = 10000
 forgeFusionDustCost = 1
 forgeConvergenceFusionDustCost = 1
 forgeTransferDustCost = 1
@@ -160,7 +160,7 @@ forgeAmountMultiplier = 3
 forgeMinSlivers = 20
 forgeMaxSlivers = 50
 forgeInfluencedLimit = 15000
-forgeFiendishLimit = 15000
+forgeFiendishLimit = 150
 forgeFiendishIntervalType = "minute"
 forgeFiendishIntervalTime = "10"
 
