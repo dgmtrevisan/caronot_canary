@@ -249,7 +249,7 @@ partyShareLootBoosts = false
 partyShareLootBoostsDimishingFactor = 0.7
 
 -- Tibiadrome concoctions
-tibiadromeConcoctionCooldown = 24 * 60 * 60 -- 24 hours
+tibiadromeConcoctionCooldown = 60 * 60 -- 1 hour
 tibiadromeConcoctionDuration = 60 * 60 -- 1 hour
 tibiadromeConcoctionTickType = "online" -- "online" | "experience"
 
