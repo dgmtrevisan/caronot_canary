@@ -159,10 +159,10 @@ forgeTierLossReduction = 50
 forgeAmountMultiplier = 3
 forgeMinSlivers = 20
 forgeMaxSlivers = 50
-forgeInfluencedLimit = 10000
-forgeFiendishLimit = 10000
+forgeInfluencedLimit = 15000
+forgeFiendishLimit = 15000
 forgeFiendishIntervalType = "minute"
-forgeFiendishIntervalTime = "20"
+forgeFiendishIntervalTime = "10"
 
 ruseChanceFormulaA = 0.0307576
 ruseChanceFormulaB = 0.440697
