@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Chagorz")
 local monster = {}
 
 monster.description = "Chagorz"
-monster.experience = 3250000
+monster.experience = 1000000
 monster.outfit = {
 	lookType = 1666,
 	lookHead = 0,
@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Oozing Corpus", chance = 50, interval = 5000, count = 2 },
-		{ name = "Mycobiontic Beetle", chance = 50, interval = 5000, count = 2 },
-		{ name = "Bloated Man-Maggot", chance = 50, interval = 5000, count = 2 },
+		{ name = "Darklight Emitter", chance = 50, interval = 5000, count = 3 },
+		{ name = "Darklight Construct", chance = 50, interval = 5000, count = 3 },
+		{ name = "Wandering Pillar", chance = 50, interval = 5000, count = 3 },
 	},
 }
 

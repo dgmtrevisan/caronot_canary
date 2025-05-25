@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Vemiath")
 local monster = {}
 
 monster.description = "Vemiath"
-monster.experience = 3250000
+monster.experience = 1000000
 monster.outfit = {
 	lookType = 1668,
 	lookHead = 0,
@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Darklight Striker", chance = 50, interval = 5000, count = 2 },
-		{ name = "Walking Pillar", chance = 50, interval = 5000, count = 2 },
-		{ name = "Darklight Matter", chance = 50, interval = 5000, count = 2 },
+		{ name = "Darklight Striker", chance = 50, interval = 5000, count = 3 },
+		{ name = "Walking Pillar", chance = 50, interval = 5000, count = 3 },
+		{ name = "Darklight Matter", chance = 50, interval = 5000, count = 3 },
 	},
 }
 

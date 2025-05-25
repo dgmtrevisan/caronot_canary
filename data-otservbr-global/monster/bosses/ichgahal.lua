@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Ichgahal")
 local monster = {}
 
 monster.description = "Ichgahal"
-monster.experience = 3250000
+monster.experience = 1000000
 monster.outfit = {
 	lookType = 1665,
 	lookHead = 0,
@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Darklight Emitter", chance = 50, interval = 5000, count = 2 },
-		{ name = "Darklight Construct", chance = 50, interval = 5000, count = 2 },
-		{ name = "Wandering Pillar", chance = 50, interval = 5000, count = 2 },
+		{ name = "Sopping Carcass", chance = 50, interval = 5000, count = 3 },
+		{ name = "Oozing Carcass", chance = 50, interval = 5000, count = 3 },
+		{ name = "Meandering Mushroom", chance = 50, interval = 5000, count = 3 },
 	},
 }
 

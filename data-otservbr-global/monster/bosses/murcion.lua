@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Murcion")
 local monster = {}
 
 monster.description = "Murcion"
-monster.experience = 3250000
+monster.experience = 1000000
 monster.outfit = {
 	lookType = 1664,
 	lookHead = 0,
@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Sopping Carcass", chance = 50, interval = 5000, count = 2 },
-		{ name = "Oozing Carcass", chance = 50, interval = 5000, count = 2 },
-		{ name = "Meandering Mushroom", chance = 50, interval = 5000, count = 2 },
+		{ name = "Oozing Corpus", chance = 50, interval = 5000, count = 3 },
+		{ name = "Mycobiontic Beetle", chance = 50, interval = 5000, count = 3 },
+		{ name = "Bloated Man-Maggot", chance = 50, interval = 5000, count = 3 },
 	},
 }
 

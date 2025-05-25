@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Bakragore")
 local monster = {}
 
 monster.description = "Bakragore"
-monster.experience = 15000000
+monster.experience = 5000000
 monster.outfit = {
 	lookType = 1671,
 	lookHead = 0,
@@ -69,7 +69,7 @@ monster.light = {
 monster.summon = {
 	maxSummons = 2,
 	summons = {
-		{ name = "Elder Bloodjaw", chance = 50, interval = 5000, count = 6 },
+		{ name = "Elder Bloodjaw", chance = 50, interval = 5000, count = 8 },
 	},
 }
 
