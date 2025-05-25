@@ -67,7 +67,7 @@ monster.light = {
 }
 
 monster.summon = {
-	maxSummons = 12,
+	maxSummons = 8,
 	summons = {
 		{ name = "Elder Bloodjaw", chance = 50, interval = 5000, count = 1 },
 		{ name = "Darklight Striker", chance = 50, interval = 5000, count = 1 },
