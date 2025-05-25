@@ -196,7 +196,7 @@ function Concoction:activate(player, item)
 			addEvent(tick, updateInterval * 1000, self.id, player:getId(), updateInterval)
 		end
 	end
-	item:remove(1)
+	-- item:remove(1)
 end
 
 function Concoction:register()

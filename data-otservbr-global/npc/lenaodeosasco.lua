@@ -84,13 +84,17 @@ addTravelKeyword("nargor", 1, Position(32024, 32813, 7))
 addTravelKeyword("kazordoon", 1, Position(32659, 31957, 15))
 addTravelKeyword("chazorai", 1, Position(33102, 31056, 7))
 addTravelKeyword("tyrsung", 1, Position(32333, 31227, 7))
+addTravelKeyword("Murcion hunt", 1, Position(33842, 31651, 13))
+addTravelKeyword("Chagorz hunt", 1, Position(33809, 31815, 13))
+addTravelKeyword("Ichgahal hunt", 1, Position(34101, 31678, 13))
+addTravelKeyword("Vemiath hunt", 1, Position(34119, 31876, 14))
 
 -- Kick
 keywordHandler:addKeyword({ "kick" }, StdModule.kick, { npcHandler = npcHandler, destination = { Position(33174, 31773, 6), Position(33175, 31771, 6), Position(33177, 31772, 6) } })
 
 -- Basic
-keywordHandler:addKeyword({ "sail" }, StdModule.say, { npcHandler = npcHandler, text = "Where do you want to go? To {ab'dendriel}, {edron}, {venore}, {port hope}, {roshamuul}, {svargrond}, {liberty bay}, {yalahar}, {oramond}, {krailos}, {farmine}, {cormaya}, {gnomprona}, {issavi}, {gray island}, {treasure island}, {isle of the kings}, {ingol}, {goroma}, {ankrahmun}, {robsons isle}, {fenrock}, {mistrock}, {eremo}, {nargor}, {kazordoon}, {tyrsung} and {chazorai}?" })
-keywordHandler:addKeyword({ "passage" }, StdModule.say, { npcHandler = npcHandler, text = "Where do you want to go? To {ab'dendriel}, {edron}, {venore}, {port hope}, {roshamuul}, {svargrond}, {liberty bay}, {yalahar}, {oramond}, {krailos}, {farmine}, {cormaya}, {gnomprona}, {issavi}, {gray island}, {treasure island}, {isle of the kings}, {ingol}, {goroma}, {ankrahmun}, {robsons isle}, {fenrock}, {mistrock}, {eremo}, {nargor}, {kazordoon}, {tyrsung} and {chazorai}?" })
+keywordHandler:addKeyword({ "sail" }, StdModule.say, { npcHandler = npcHandler, text = "Where do you want to go? To {ab'dendriel}, {edron}, {venore}, {port hope}, {roshamuul}, {svargrond}, {liberty bay}, {yalahar}, {oramond}, {krailos}, {farmine}, {cormaya}, {gnomprona}, {issavi}, {gray island}, {treasure island}, {isle of the kings}, {ingol}, {goroma}, {ankrahmun}, {robsons isle}, {fenrock}, {mistrock}, {eremo}, {nargor}, {kazordoon}, {tyrsung}, {Murcion hunt}, {Chagorz hunt}, {Ichgahal hunt}, {Vemiath hunt} and {chazorai}?" })
+keywordHandler:addKeyword({ "passage" }, StdModule.say, { npcHandler = npcHandler, text = "Where do you want to go? To {ab'dendriel}, {edron}, {venore}, {port hope}, {roshamuul}, {svargrond}, {liberty bay}, {yalahar}, {oramond}, {krailos}, {farmine}, {cormaya}, {gnomprona}, {issavi}, {gray island}, {treasure island}, {isle of the kings}, {ingol}, {goroma}, {ankrahmun}, {robsons isle}, {fenrock}, {mistrock}, {eremo}, {nargor}, {kazordoon}, {tyrsung}, {Murcion hunt}, {Chagorz hunt}, {Ichgahal hunt}, {Vemiath hunt} and {chazorai}?" })
 npcHandler:setMessage(MESSAGE_GREET, "Welcome on board, |PLAYERNAME|. Where may I {sail} you today?")
 npcHandler:setMessage(MESSAGE_FAREWELL, "Good bye. Recommend us if you were satisfied with our service.")
 npcHandler:setMessage(MESSAGE_WALKAWAY, "Good bye then.")

@@ -159,8 +159,8 @@ forgeTierLossReduction = 50
 forgeAmountMultiplier = 3
 forgeMinSlivers = 20
 forgeMaxSlivers = 50
-forgeInfluencedLimit = 15000
-forgeFiendishLimit = 150
+forgeInfluencedLimit = 30000
+forgeFiendishLimit = 300
 forgeFiendishIntervalType = "minute"
 forgeFiendishIntervalTime = "10"
 
