@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Sopping Carcass", chance = 50, interval = 5000, count = 4 },
-		{ name = "Oozing Carcass", chance = 50, interval = 5000, count = 4 },
-		{ name = "Meandering Mushroom", chance = 50, interval = 5000, count = 4 },
+		{ name = "Sopping Carcass", chance = 50, interval = 5000, count = 3 },
+		{ name = "Oozing Carcass", chance = 50, interval = 5000, count = 3 },
+		{ name = "Meandering Mushroom", chance = 50, interval = 5000, count = 3 },
 	},
 }
 
@@ -88,7 +88,7 @@ monster.loot = {
 	{ name = "supreme health potion", chance = 6212, maxCount = 102 },
 	{ name = "ultimate mana potion", chance = 8785, maxCount = 29 },
 	{ name = "ultimate spirit potion", chance = 8783, maxCount = 161 },
-	{ name = "bag you covet", chance = 10, maxCount = 1 },
+	{ name = "bag you covet", chance = 20, maxCount = 1 },
 }
 
 monster.attacks = {

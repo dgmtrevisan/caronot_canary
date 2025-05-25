@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Oozing Corpus", chance = 50, interval = 5000, count = 4 },
-		{ name = "Mycobiontic Beetle", chance = 50, interval = 5000, count = 4 },
-		{ name = "Bloated Man-Maggot", chance = 50, interval = 5000, count = 4 },
+		{ name = "Oozing Corpus", chance = 50, interval = 5000, count = 3 },
+		{ name = "Mycobiontic Beetle", chance = 50, interval = 5000, count = 3 },
+		{ name = "Bloated Man-Maggot", chance = 50, interval = 5000, count = 3 },
 	},
 }
 
@@ -100,7 +100,7 @@ monster.loot = {
 	{ name = "green gem", chance = 8348, maxCount = 1 },
 	{ name = "ultimate spirit potion", chance = 10934, maxCount = 18 },
 	{ name = "white gem", chance = 9600, maxCount = 3 },
-	{ name = "bag you covet", chance = 10, maxCount = 1 },
+	{ name = "bag you covet", chance = 20, maxCount = 1 },
 }
 
 monster.attacks = {

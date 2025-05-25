@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Darklight Emitter", chance = 50, interval = 5000, count = 4 },
-		{ name = "Darklight Construct", chance = 50, interval = 5000, count = 4 },
-		{ name = "Wandering Pillar", chance = 50, interval = 5000, count = 4 },
+		{ name = "Darklight Emitter", chance = 50, interval = 5000, count = 3 },
+		{ name = "Darklight Construct", chance = 50, interval = 5000, count = 3 },
+		{ name = "Wandering Pillar", chance = 50, interval = 5000, count = 3 },
 	},
 }
 
@@ -102,7 +102,7 @@ monster.loot = {
 	{ name = "putrefactive figurine", chance = 11416, maxCount = 1 },
 	{ name = "ichgahal's fungal infestation", chance = 7902, maxCount = 1 },
 	{ name = "white gem", chance = 13559, maxCount = 3 },
-	{ name = "bag you covet", chance = 10, maxCount = 1 },
+	{ name = "bag you covet", chance = 20, maxCount = 1 },
 }
 
 monster.attacks = {
