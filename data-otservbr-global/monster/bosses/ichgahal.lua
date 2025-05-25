@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Darklight Emitter", chance = 50, interval = 5000, count = 2 },
-		{ name = "Darklight Construct", chance = 50, interval = 5000, count = 2 },
-		{ name = "Wandering Pillar", chance = 50, interval = 5000, count = 2 },
+		{ name = "Darklight Emitter", chance = 50, interval = 5000, count = 4 },
+		{ name = "Darklight Construct", chance = 50, interval = 5000, count = 4 },
+		{ name = "Wandering Pillar", chance = 50, interval = 5000, count = 4 },
 	},
 }
 

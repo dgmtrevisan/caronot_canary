@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Oozing Corpus", chance = 50, interval = 5000, count = 2 },
-		{ name = "Mycobiontic Beetle", chance = 50, interval = 5000, count = 2 },
-		{ name = "Bloated Man-Maggot", chance = 50, interval = 5000, count = 2 },
+		{ name = "Oozing Corpus", chance = 50, interval = 5000, count = 4 },
+		{ name = "Mycobiontic Beetle", chance = 50, interval = 5000, count = 4 },
+		{ name = "Bloated Man-Maggot", chance = 50, interval = 5000, count = 4 },
 	},
 }
 

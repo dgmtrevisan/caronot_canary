@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Sopping Carcass", chance = 50, interval = 5000, count = 2 },
-		{ name = "Oozing Carcass", chance = 50, interval = 5000, count = 2 },
-		{ name = "Meandering Mushroom", chance = 50, interval = 5000, count = 2 },
+		{ name = "Sopping Carcass", chance = 50, interval = 5000, count = 4 },
+		{ name = "Oozing Carcass", chance = 50, interval = 5000, count = 4 },
+		{ name = "Meandering Mushroom", chance = 50, interval = 5000, count = 4 },
 	},
 }
 
