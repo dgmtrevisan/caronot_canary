@@ -69,7 +69,19 @@ monster.light = {
 monster.summon = {
 	maxSummons = 2,
 	summons = {
-		{ name = "Elder Bloodjaw", chance = 50, interval = 5000, count = 8 },
+		{ name = "Elder Bloodjaw", chance = 50, interval = 5000, count = 1 },
+		{ name = "Darklight Striker", chance = 50, interval = 5000, count = 1 },
+		{ name = "Walking Pillar", chance = 50, interval = 5000, count = 1 },
+		{ name = "Darklight Matter", chance = 50, interval = 5000, count = 1 },
+		{ name = "Oozing Corpus", chance = 50, interval = 5000, count = 1 },
+		{ name = "Mycobiontic Beetle", chance = 50, interval = 5000, count = 1 },
+		{ name = "Bloated Man-Maggot", chance = 50, interval = 5000, count = 1 },
+		{ name = "Darklight Emitter", chance = 50, interval = 5000, count = 1 },
+		{ name = "Darklight Construct", chance = 50, interval = 5000, count = 1 },
+		{ name = "Wandering Pillar", chance = 50, interval = 5000, count = 1 },
+		{ name = "Sopping Carcass", chance = 50, interval = 5000, count = 1 },
+		{ name = "Oozing Carcass", chance = 50, interval = 5000, count = 1 },
+		{ name = "Meandering Mushroom", chance = 50, interval = 5000, count = 1 },
 	},
 }
 
