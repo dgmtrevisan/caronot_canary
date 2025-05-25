@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Oozing Corpus", chance = 50, interval = 5000, count = 3 },
-		{ name = "Mycobiontic Beetle", chance = 50, interval = 5000, count = 3 },
-		{ name = "Bloated Man-Maggot", chance = 50, interval = 5000, count = 3 },
+		{ name = "Oozing Corpus", chance = 50, interval = 5000, count = 2 },
+		{ name = "Mycobiontic Beetle", chance = 50, interval = 5000, count = 2 },
+		{ name = "Bloated Man-Maggot", chance = 50, interval = 5000, count = 2 },
 	},
 }
 
@@ -104,11 +104,11 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -1300, maxDamage = -4250 },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_EARTHDAMAGE, minDamage = -1000, maxDamage = -1800, radius = 4, effect = CONST_ME_GREEN_RINGS, target = false },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_DEATHDAMAGE, minDamage = -1000, maxDamage = -1800, range = 4, radius = 4, effect = 241, target = true },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_EARTHDAMAGE, minDamage = -2000, maxDamage = -2400, length = 10, spread = 0, effect = CONST_ME_POFF, target = false },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_LIFEDRAIN, minDamage = -3000, maxDamage = -3800, length = 10, spread = 0, effect = 225, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -900, maxDamage = -3200 },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_EARTHDAMAGE, minDamage = -700, maxDamage = -1600, radius = 4, effect = CONST_ME_GREEN_RINGS, target = false },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_DEATHDAMAGE, minDamage = -700, maxDamage = -1600, range = 4, radius = 4, effect = 241, target = true },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_EARTHDAMAGE, minDamage = -1400, maxDamage = -2200, length = 10, spread = 0, effect = CONST_ME_POFF, target = false },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_LIFEDRAIN, minDamage = -1000, maxDamage = -2400, length = 10, spread = 0, effect = 225, target = false },
 	{ name = "speed", interval = 2000, chance = 40, speedChange = -600, radius = 7, effect = CONST_ME_MAGIC_GREEN, target = false, duration = 20000 },
 }
 

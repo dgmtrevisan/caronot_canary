@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Sopping Carcass", chance = 50, interval = 5000, count = 3 },
-		{ name = "Oozing Carcass", chance = 50, interval = 5000, count = 3 },
-		{ name = "Meandering Mushroom", chance = 50, interval = 5000, count = 3 },
+		{ name = "Sopping Carcass", chance = 50, interval = 5000, count = 2 },
+		{ name = "Oozing Carcass", chance = 50, interval = 5000, count = 2 },
+		{ name = "Meandering Mushroom", chance = 50, interval = 5000, count = 2 },
 	},
 }
 
@@ -92,11 +92,11 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -1400, maxDamage = -4300 },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_DEATHDAMAGE, minDamage = -1000, maxDamage = -1800, radius = 4, effect = CONST_ME_SMALLCLOUDS, target = false },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_HOLYDAMAGE, minDamage = -1000, maxDamage = -1800, range = 4, radius = 4, shootEffect = 31, effect = 248, target = true },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_ICEDAMAGE, minDamage = -2000, maxDamage = -2400, length = 10, spread = 0, effect = 53, target = false },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_PHYSICALDAMAGE, minDamage = -3000, maxDamage = -3800, length = 10, spread = 0, effect = 158, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -1000, maxDamage = -3000 },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_DEATHDAMAGE, minDamage = -800, maxDamage = -1600, radius = 4, effect = CONST_ME_SMALLCLOUDS, target = false },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_HOLYDAMAGE, minDamage = -800, maxDamage = -1600, range = 4, radius = 4, shootEffect = 31, effect = 248, target = true },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_ICEDAMAGE, minDamage = -1200, maxDamage = -2000, length = 10, spread = 0, effect = 53, target = false },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_PHYSICALDAMAGE, minDamage = -1800, maxDamage = -3000, length = 10, spread = 0, effect = 158, target = false },
 	{ name = "speed", interval = 2000, chance = 40, speedChange = -600, radius = 7, effect = CONST_ME_POFF, target = false, duration = 20000 },
 }
 

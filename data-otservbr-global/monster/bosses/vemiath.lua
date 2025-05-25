@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Darklight Striker", chance = 50, interval = 5000, count = 3 },
-		{ name = "Walking Pillar", chance = 50, interval = 5000, count = 3 },
-		{ name = "Darklight Matter", chance = 50, interval = 5000, count = 3 },
+		{ name = "Darklight Striker", chance = 50, interval = 5000, count = 2 },
+		{ name = "Walking Pillar", chance = 50, interval = 5000, count = 2 },
+		{ name = "Darklight Matter", chance = 50, interval = 5000, count = 2 },
 	},
 }
 
@@ -108,12 +108,12 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -2000, maxDamage = -5000 },
-	{ name = "combat", interval = 3000, chance = 40, type = COMBAT_FIREDAMAGE, minDamage = -1000, maxDamage = -2000, length = 10, spread = 3, effect = 244, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -1200, maxDamage = -3600 },
+	{ name = "combat", interval = 3000, chance = 40, type = COMBAT_FIREDAMAGE, minDamage = -800, maxDamage = -1600, length = 10, spread = 3, effect = 244, target = false },
 	{ name = "speed", interval = 2000, chance = 50, speedChange = -600, radius = 7, effect = CONST_ME_MAGIC_RED, target = false, duration = 15000 },
-	{ name = "combat", interval = 2000, chance = 30, type = COMBAT_ICEDAMAGE, minDamage = -600, maxDamage = -1400, radius = 5, effect = 243, target = false },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_DEATHDAMAGE, minDamage = -1000, maxDamage = -1600, length = 10, spread = 3, effect = CONST_ME_EXPLOSIONHIT, target = false },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_FIREDAMAGE, minDamage = -1000, maxDamage = -1600, length = 8, spread = 3, effect = CONST_ME_FIREATTACK, target = false },
+	{ name = "combat", interval = 2000, chance = 30, type = COMBAT_ICEDAMAGE, minDamage = -600, maxDamage = -1200, radius = 5, effect = 243, target = false },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_DEATHDAMAGE, minDamage = -700, maxDamage = -1200, length = 10, spread = 3, effect = CONST_ME_EXPLOSIONHIT, target = false },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_FIREDAMAGE, minDamage = -700, maxDamage = -1200, length = 8, spread = 3, effect = CONST_ME_FIREATTACK, target = false },
 }
 
 monster.defenses = {

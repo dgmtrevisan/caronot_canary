@@ -69,9 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Darklight Emitter", chance = 50, interval = 5000, count = 3 },
-		{ name = "Darklight Construct", chance = 50, interval = 5000, count = 3 },
-		{ name = "Wandering Pillar", chance = 50, interval = 5000, count = 3 },
+		{ name = "Darklight Emitter", chance = 50, interval = 5000, count = 2 },
+		{ name = "Darklight Construct", chance = 50, interval = 5000, count = 2 },
+		{ name = "Wandering Pillar", chance = 50, interval = 5000, count = 2 },
 	},
 }
 
@@ -106,10 +106,10 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 3000, chance = 100, minDamage = -1500, maxDamage = -4600 },
-	{ name = "combat", interval = 1000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -1400, maxDamage = -2000, length = 12, spread = 0, effect = 249, target = false },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_MANADRAIN, minDamage = -2600, maxDamage = -4600, length = 12, spread = 0, effect = 193, target = false },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_FIREDAMAGE, minDamage = -1800, maxDamage = -3000, length = 6, spread = 0, effect = CONST_ME_FIREAREA, target = false },
+	{ name = "melee", interval = 3000, chance = 100, minDamage = -1200, maxDamage = -3200 },
+	{ name = "combat", interval = 1000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -1000, maxDamage = -1500, length = 12, spread = 0, effect = 249, target = false },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_MANADRAIN, minDamage = -1800, maxDamage = -2800, length = 12, spread = 0, effect = 193, target = false },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_FIREDAMAGE, minDamage = -1200, maxDamage = -2200, length = 6, spread = 0, effect = CONST_ME_FIREAREA, target = false },
 	{ name = "speed", interval = 2000, chance = 70, speedChange = -600, radius = 8, effect = CONST_ME_MAGIC_RED, target = false, duration = 15000 },
 }
 
