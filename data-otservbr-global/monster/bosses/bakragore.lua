@@ -67,7 +67,7 @@ monster.light = {
 }
 
 monster.summon = {
-	maxSummons = 8,
+	maxSummons = 12,
 	summons = {
 		{ name = "Elder Bloodjaw", chance = 50, interval = 5000, count = 1 },
 		{ name = "Darklight Striker", chance = 50, interval = 5000, count = 1 },
@@ -114,11 +114,11 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -500, maxDamage = -4000 },
-	{ name = "combat", interval = 3000, chance = 70, type = COMBAT_ICEDAMAGE, minDamage = -1600, maxDamage = -1800, range = 7, radius = 7, shootEffect = CONST_ANI_ICE, effect = 243, target = true },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_DEATHDAMAGE, minDamage = -900, maxDamage = -1800, length = 8, spread = 0, effect = 252, target = false },
-	{ name = "combat", interval = 3000, chance = 60, type = COMBAT_FIREDAMAGE, minDamage = -1600, maxDamage = -3000, length = 8, spread = 0, effect = 249, target = false },
-	{ name = "combat", interval = 2000, chance = 60, type = COMBAT_ICEDAMAGE, minDamage = -1350, maxDamage = -3000, range = 7, radius = 3, shootEffect = 37, effect = 240, target = true },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -500, maxDamage = -4200 },
+	{ name = "combat", interval = 3000, chance = 70, type = COMBAT_ICEDAMAGE, minDamage = -1600, maxDamage = -2000, range = 7, radius = 7, shootEffect = CONST_ANI_ICE, effect = 243, target = true },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_DEATHDAMAGE, minDamage = -900, maxDamage = -2000, length = 8, spread = 0, effect = 252, target = false },
+	{ name = "combat", interval = 3000, chance = 60, type = COMBAT_FIREDAMAGE, minDamage = -1600, maxDamage = -3200, length = 8, spread = 0, effect = 249, target = false },
+	{ name = "combat", interval = 2000, chance = 60, type = COMBAT_ICEDAMAGE, minDamage = -1350, maxDamage = -3200, range = 7, radius = 3, shootEffect = 37, effect = 240, target = true },
 	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -1400, maxDamage = -3500, length = 8, spread = 0, effect = 244, target = false },
 }
 
