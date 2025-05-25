@@ -22,8 +22,8 @@ monster.bosstiary = {
 	bossRace = RARITY_NEMESIS,
 }
 
-monster.health = 350000
-monster.maxHealth = 350000
+monster.health = 550000
+monster.maxHealth = 550000
 monster.race = "undead"
 monster.corpse = 44018
 monster.speed = 250
@@ -69,7 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Mushroom", chance = 30, interval = 5000, count = 8 },
+		{ name = "Darklight Emitter", chance = 50, interval = 5000, count = 2 },
+		{ name = "Darklight Construct", chance = 50, interval = 5000, count = 2 },
+		{ name = "Wandering Pillar", chance = 50, interval = 5000, count = 2 },
 	},
 }
 
@@ -100,15 +102,15 @@ monster.loot = {
 	{ name = "putrefactive figurine", chance = 11416, maxCount = 1 },
 	{ name = "ichgahal's fungal infestation", chance = 7902, maxCount = 1 },
 	{ name = "white gem", chance = 13559, maxCount = 3 },
-	{ id = 43895, chance = 360 }, -- Bag you covet
+	{ name = "bag you covet", chance = 10, maxCount = 1 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 3000, chance = 100, minDamage = -1500, maxDamage = -2300 },
-	{ name = "combat", interval = 1000, chance = 10, type = COMBAT_PHYSICALDAMAGE, minDamage = -700, maxDamage = -1000, length = 12, spread = 0, effect = 249, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_MANADRAIN, minDamage = -2600, maxDamage = -2300, length = 12, spread = 0, effect = 193, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -900, maxDamage = -1500, length = 6, spread = 0, effect = CONST_ME_FIREAREA, target = false },
-	{ name = "speed", interval = 2000, chance = 35, speedChange = -600, radius = 8, effect = CONST_ME_MAGIC_RED, target = false, duration = 15000 },
+	{ name = "melee", interval = 3000, chance = 100, minDamage = -1500, maxDamage = -4600 },
+	{ name = "combat", interval = 1000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -1400, maxDamage = -2000, length = 12, spread = 0, effect = 249, target = false },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_MANADRAIN, minDamage = -2600, maxDamage = -4600, length = 12, spread = 0, effect = 193, target = false },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_FIREDAMAGE, minDamage = -1800, maxDamage = -3000, length = 6, spread = 0, effect = CONST_ME_FIREAREA, target = false },
+	{ name = "speed", interval = 2000, chance = 70, speedChange = -600, radius = 8, effect = CONST_ME_MAGIC_RED, target = false, duration = 15000 },
 }
 
 monster.defenses = {

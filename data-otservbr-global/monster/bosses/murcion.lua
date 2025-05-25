@@ -22,8 +22,8 @@ monster.bosstiary = {
 	bossRace = RARITY_NEMESIS,
 }
 
-monster.health = 350000
-monster.maxHealth = 350000
+monster.health = 550000
+monster.maxHealth = 550000
 monster.race = "undead"
 monster.corpse = 44015
 monster.speed = 250
@@ -69,7 +69,9 @@ monster.light = {
 monster.summon = {
 	maxSummons = 8,
 	summons = {
-		{ name = "Mushroom", chance = 30, interval = 5000, count = 8 },
+		{ name = "Sopping Carcass", chance = 50, interval = 5000, count = 2 },
+		{ name = "Oozing Carcass", chance = 50, interval = 5000, count = 2 },
+		{ name = "Meandering Mushroom", chance = 50, interval = 5000, count = 2 },
 	},
 }
 
@@ -86,15 +88,16 @@ monster.loot = {
 	{ name = "supreme health potion", chance = 6212, maxCount = 102 },
 	{ name = "ultimate mana potion", chance = 8785, maxCount = 29 },
 	{ name = "ultimate spirit potion", chance = 8783, maxCount = 161 },
+	{ name = "bag you covet", chance = 10, maxCount = 1 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -1400, maxDamage = -2300 },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -500, maxDamage = -900, radius = 4, effect = CONST_ME_SMALLCLOUDS, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_HOLYDAMAGE, minDamage = -500, maxDamage = -900, range = 4, radius = 4, shootEffect = 31, effect = 248, target = true },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ICEDAMAGE, minDamage = -1000, maxDamage = -1200, length = 10, spread = 0, effect = 53, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -1500, maxDamage = -1900, length = 10, spread = 0, effect = 158, target = false },
-	{ name = "speed", interval = 2000, chance = 20, speedChange = -600, radius = 7, effect = CONST_ME_POFF, target = false, duration = 20000 },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -1400, maxDamage = -4300 },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_DEATHDAMAGE, minDamage = -1000, maxDamage = -1800, radius = 4, effect = CONST_ME_SMALLCLOUDS, target = false },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_HOLYDAMAGE, minDamage = -1000, maxDamage = -1800, range = 4, radius = 4, shootEffect = 31, effect = 248, target = true },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_ICEDAMAGE, minDamage = -2000, maxDamage = -2400, length = 10, spread = 0, effect = 53, target = false },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_PHYSICALDAMAGE, minDamage = -3000, maxDamage = -3800, length = 10, spread = 0, effect = 158, target = false },
+	{ name = "speed", interval = 2000, chance = 40, speedChange = -600, radius = 7, effect = CONST_ME_POFF, target = false, duration = 20000 },
 }
 
 monster.defenses = {
