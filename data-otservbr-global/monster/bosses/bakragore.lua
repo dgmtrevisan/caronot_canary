@@ -110,7 +110,7 @@ monster.loot = {
 	-- { name = "figurine of bakragore", chance = 10970 },
 	-- { name = "bakragore's amalgamation", chance = 570 },
 	{ name = "spiritual horseshoe", chance = 470 },
-	{ name = "bag you covet", chance = 100, maxCount = 1 },
+	{ name = "bag you covet", chance = 150, maxCount = 1 },
 }
 
 monster.attacks = {
