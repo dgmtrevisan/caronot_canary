@@ -190,7 +190,7 @@ local function creatureSayCallback(npc, creature, type, message)
 		npcHandler:say({ "I have creature products for the imbuements {Blockade}, {Chop}, {Epiphany}, {Precision}, {Slash}, {Bash}, {Reap}, {Lectrify}, {Venom}, {Frost}, {Scorch}, {Cloud Fabric}, {Demon Presence}, {Dragon Hide}, {Lich Shroud}, {Quara Scale}, {Snake Skin}, {Featherweight}, {Strike}, {Swiftness}, {Vampirism} and {Void}. Make your choice, please!" }, npc, creature)
 		npcHandler:setTopic(playerId, 1)
 	elseif MsgContains(message, "money") then
-		player:setBankBalance(100000000000)
+		player:setBankBalance(900000000000)
 		player:addTransferableCoins(10000)
 		npcHandler:say("There it is. Now you are rich!", npc, creature)
 	elseif npcHandler:getTopic(playerId) == 1 then
