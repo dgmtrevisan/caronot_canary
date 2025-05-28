@@ -22,8 +22,8 @@ monster.bosstiary = {
 	bossRace = RARITY_NEMESIS,
 }
 
-monster.health = 960000
-monster.maxHealth = 960000
+monster.health = 1
+monster.maxHealth = 1
 monster.race = "undead"
 monster.corpse = 44012
 monster.speed = 250
@@ -104,13 +104,13 @@ monster.loot = {
 	{ name = "giant ruby", chance = 10570, maxCount = 1 },
 	{ name = "giant sapphire", chance = 10570, maxCount = 1 },
 	{ name = "mastermind potion", chance = 10938, maxCount = 23 },
-	{ id = 3039, chance = 10570, maxCount = 3 }, -- red gem
+	{ id = 43895, chance = 12000, maxCount = 1 }, -- red gem
 	{ name = "violet gem", chance = 10970, maxCount = 8 },
 	{ name = "yellow gem", chance = 10970, maxCount = 9 },
 	-- { name = "figurine of bakragore", chance = 10970 },
 	-- { name = "bakragore's amalgamation", chance = 570 },
 	{ name = "spiritual horseshoe", chance = 470 },
-	{ name = "bag you covet", chance = 150, maxCount = 1 },
+	{ id = 43895, chance = 150, maxCount = 1 },
 }
 
 monster.attacks = {
