@@ -5,7 +5,7 @@ function offlineTraining.onLogin(player)
 	local offlineTime = lastLogout ~= 0 and math.min(os.time() - lastLogout, 86400 * 21) or 0
 	local offlineTrainingSkill = player:getOfflineTrainingSkill()
 	if offlineTrainingSkill == SKILL_NONE then
-		player:addOfflineTrainingTime(offlineTime * 1000)
+		-- player:addOfflineTrainingTime(offlineTime * 1000)
 		return true
 	end
 
@@ -17,11 +17,11 @@ function offlineTraining.onLogin(player)
 	end
 
 	local trainingTime = math.max(0, math.min(offlineTime, math.min(43200, player:getOfflineTrainingTime() / 1000)))
-	player:removeOfflineTrainingTime(trainingTime * 1000)
+	-- player:removeOfflineTrainingTime(trainingTime * 1000)
 
 	local remainder = offlineTime - trainingTime
 	if remainder > 0 then
-		player:addOfflineTrainingTime(remainder * 1000)
+		-- player:addOfflineTrainingTime(remainder * 1000)
 	end
 
 	if trainingTime < 60 then
@@ -74,9 +74,9 @@ function offlineTraining.onLogin(player)
 		updateSkills = player:addOfflineTrainingTries(offlineTrainingSkill, tries * configManager.getFloat(configKeys.RATE_OFFLINE_TRAINING_SPEED))
 	end
 
-	if updateSkills then
-		player:addOfflineTrainingTries(SKILL_SHIELD, trainingTime / 4)
-	end
+	-- if updateSkills then
+	-- 	player:addOfflineTrainingTries(SKILL_SHIELD, trainingTime / 4)
+	-- end
 	return true
 end
 

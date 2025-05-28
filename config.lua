@@ -522,7 +522,7 @@ rateSoulRegenSpeed = 1.0
 
 rateSpellCooldown = 1.0
 rateAttackSpeed = 1.0
-rateOfflineTrainingSpeed = rateAttackSpeed
+rateOfflineTrainingSpeed = 28.0
 rateExerciseTrainingSpeed = rateAttackSpeed
 
 -- Monster rates
