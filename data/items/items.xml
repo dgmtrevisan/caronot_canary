@@ -77882,6 +77882,7 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="44648" name="stoic iks boots">
 		<attribute key="primarytype" value="boots"/>
+		<attribute key="absorbpercentfire" value="5"/>
 		<attribute key="speed" value="15"/>
 		<attribute key="armor" value="2"/>
 		<attribute key="skilldist" value="1"/>
