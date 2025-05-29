@@ -6686,7 +6686,17 @@
 	<item id="3013" article="a" name="golden amulet">
 		<attribute key="primarytype" value="amulets and necklaces"/>
 		<attribute key="description" value="Many gems glitter on the amulet"/>
-		<attribute key="weight" value="830"/>
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="armor" value="3"/>
+		<attribute key="absorbpercentphysical" value="12"/>
+		<attribute key="absorbpercentfire" value="12"/>
+		<attribute key="absorbpercentpoison" value="12"/>
+		<attribute key="absorbpercentenergy" value="12"/>
+		<attribute key="absorbpercentice" value="12"/>
+		<attribute key="absorbpercentholy" value="12"/>
+		<attribute key="absorbpercentdeath" value="12"/>
+		<attribute key="weight" value="500"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="necklace"/>
 		</attribute>
@@ -6944,10 +6954,15 @@
 	</item>
 	<item id="3054" article="a" name="silver amulet">
 		<attribute key="primarytype" value="amulets and necklaces"/>
-		<attribute key="showCharges" value="1"/>
 		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentpoison" value="10"/>
-		<attribute key="charges" value="200"/>
+		<attribute key="armor" value="2"/>
+		<attribute key="absorbpercentphysical" value="7"/>
+		<attribute key="absorbpercentfire" value="7"/>
+		<attribute key="absorbpercentpoison" value="7"/>
+		<attribute key="absorbpercentenergy" value="7"/>
+		<attribute key="absorbpercentice" value="7"/>
+		<attribute key="absorbpercentholy" value="7"/>
+		<attribute key="absorbpercentdeath" value="7"/>
 		<attribute key="weight" value="500"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="necklace"/>
@@ -6964,10 +6979,15 @@
 	</item>
 	<item id="3056" article="a" name="bronze amulet">
 		<attribute key="primarytype" value="amulets and necklaces"/>
-		<attribute key="showCharges" value="1"/>
 		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentmanadrain" value="20"/>
-		<attribute key="charges" value="200"/>
+		<attribute key="armor" value="1"/>
+		<attribute key="absorbpercentphysical" value="3"/>
+		<attribute key="absorbpercentfire" value="3"/>
+		<attribute key="absorbpercentpoison" value="3"/>
+		<attribute key="absorbpercentenergy" value="3"/>
+		<attribute key="absorbpercentice" value="3"/>
+		<attribute key="absorbpercentholy" value="3"/>
+		<attribute key="absorbpercentdeath" value="3"/>
 		<attribute key="weight" value="500"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="necklace"/>
