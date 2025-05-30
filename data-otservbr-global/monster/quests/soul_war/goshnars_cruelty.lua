@@ -92,10 +92,10 @@ monster.loot = {
 	{ name = "ultimate spirit potion", chance = 18000, minCount = 50, maxCount = 100 },
 	{ name = "cruelty's chest", chance = 2000 },
 	{ name = "cruelty's claw", chance = 2000 },
-	{ name = "figurine of cruelty", chance = 400 },
-	{ name = "spectral saddle", chance = 400 },
-	{ name = "spectral horse tack", chance = 400 },
-	{ name = "bag you desire", chance = 100 },
+	{ name = "figurine of cruelty", chance = 1000 },
+	{ name = "spectral saddle", chance = 1000 },
+	{ name = "spectral horse tack", chance = 1000 },
+	{ id = 34109, chance = 1000, maxCount = 1 },
 }
 
 monster.attacks = {

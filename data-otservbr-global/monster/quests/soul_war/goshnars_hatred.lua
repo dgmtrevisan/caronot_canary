@@ -91,11 +91,11 @@ monster.loot = {
 	{ name = "supreme health potion", chance = 18000, minCount = 50, maxCount = 100 },
 	{ name = "ultimate spirit potion", chance = 18000, minCount = 50, maxCount = 100 },
 	{ name = "vial of hatred", chance = 25000, maxCount = 1 },
-	{ name = "figurine of hatred", chance = 400 },
-	{ name = "spectral horseshoe", chance = 400 },
-	{ name = "spectral horse tack", chance = 400 },
-	{ name = "bracelet of strengthening", chance = 400 },
-	{ name = "bag you desire", chance = 100 },
+	{ name = "figurine of hatred", chance = 1000 },
+	{ name = "spectral horseshoe", chance = 1000 },
+	{ name = "spectral horse tack", chance = 1000 },
+	{ name = "bracelet of strengthening", chance = 1000 },
+	{ id = 34109, chance = 1000, maxCount = 1 },
 }
 
 monster.attacks = {

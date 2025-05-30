@@ -89,10 +89,10 @@ monster.loot = {
 	{ name = "ultimate mana potion", chance = 18000, minCount = 50, maxCount = 100 },
 	{ name = "supreme health potion", chance = 18000, minCount = 50, maxCount = 100 },
 	{ name = "ultimate spirit potion", chance = 18000, minCount = 50, maxCount = 100 },
-	{ name = "the skull of a beast", chance = 400 },
-	{ name = "figurine of spite", chance = 400 },
-	{ name = "spite's spirit", chance = 400 },
-	{ name = "bag you desire", chance = 100 },
+	{ name = "the skull of a beast", chance = 1000 },
+	{ name = "figurine of spite", chance = 1000 },
+	{ name = "spite's spirit", chance = 1000 },
+	{ id = 34109, chance = 1000, maxCount = 1 },
 }
 
 monster.attacks = {

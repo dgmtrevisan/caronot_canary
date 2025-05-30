@@ -92,11 +92,11 @@ monster.loot = {
 	{ name = "ultimate spirit potion", chance = 18000, minCount = 50, maxCount = 100 },
 	{ name = "malice's spine", chance = 2000, maxCount = 1 },
 	{ name = "malice's horn", chance = 2000, maxCount = 1 },
-	{ name = "bracelet of strengthening", chance = 400 },
-	{ name = "spectral horseshoe", chance = 400 },
-	{ name = "the skull of a beast", chance = 400 },
-	{ name = "figurine of malice", chance = 400 },
-	{ name = "bag you desire", chance = 100 },
+	{ name = "bracelet of strengthening", chance = 1000 },
+	{ name = "spectral horseshoe", chance = 1000 },
+	{ name = "the skull of a beast", chance = 1000 },
+	{ name = "figurine of malice", chance = 1000 },
+	{ id = 34109, chance = 1000, maxCount = 1 },
 }
 
 monster.attacks = {
