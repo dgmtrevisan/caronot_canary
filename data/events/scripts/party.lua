@@ -11,24 +11,33 @@ function Party:onDisband()
 end
 
 function Party:onShareExperience(exp)
-    local sharedExperienceMultiplier = 1.20 --20%
-    local vocationsIds = {}
+    -- local sharedExperienceMultiplier = 1.20 --20%
+    -- local vocationsIds = {}
 
-    local vocationId = self:getLeader():getVocation():getBase():getId()
-    if vocationId ~= VOCATION_NONE then
-        table.insert(vocationsIds, vocationId)
-    end
+    -- local vocationId = self:getLeader():getVocation():getBase():getId()
+    -- if vocationId ~= VOCATION_NONE then
+    --     table.insert(vocationsIds, vocationId)
+    -- end
 
-    for _, member in ipairs(self:getMembers()) do
-        vocationId = member:getVocation():getBase():getId()
-        if not table.contains(vocationsIds, vocationId) and vocationId ~= VOCATION_NONE then
-            table.insert(vocationsIds, vocationId)
-        end
+    -- for _, member in ipairs(self:getMembers()) do
+    --     vocationId = member:getVocation():getBase():getId()
+    --     if not table.contains(vocationsIds, vocationId) and vocationId ~= VOCATION_NONE then
+    --         table.insert(vocationsIds, vocationId)
+    --     end
 
+    -- local membersList = self:getMembers()
+    -- local size = #membersList
+    --     sharedExperienceMultiplier = 1.0 + ((size * (5 * (size - 1) + 10)) / 100)
+    -- end
+
+    -- return (exp * sharedExperienceMultiplier) / (#self:getMembers() + 1)
+    local bonusMultiplier = 1.0
     local membersList = self:getMembers()
     local size = #membersList
-        sharedExperienceMultiplier = 1.0 + ((size * (5 * (size - 1) + 10)) / 100)
-    end
 
-    return (exp * sharedExperienceMultiplier) / (#self:getMembers() + 1)
+    if (size > 1) {
+        bonusMultiplier += 0.2 * (size - 1);
+    }
+
+    return (exp * bonusMultiplier)
 end 
