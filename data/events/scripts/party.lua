@@ -66,7 +66,7 @@ function Party:onDisband()
 end
 
 function Party:onShareExperience(exp)
-	local partySize = self:getMemberCount() + 1
-    sharedExperienceMultiplier = 1.0 + ((partySize * (5 * (partySize - 1) + 10)) / 100)
-	return math.ceil((exp * sharedExperienceMultiplier) / partySize)
+	local partySize = self:getMemberCount()
+    bonusMultiplier = 0.2 * (partySize - 1)
+	return math.ceil((exp * bonusMultiplier) / partySize)
 end
