@@ -67,6 +67,6 @@ end
 
 function Party:onShareExperience(exp)
 	local partySize = self:getMemberCount()
-    bonusMultiplier = 1 + (0.2 * (partySize - 1))
+    bonusMultiplier = 1 + (0.25 * (partySize - 1))
 	return math.ceil((exp * bonusMultiplier) / partySize)
 end
