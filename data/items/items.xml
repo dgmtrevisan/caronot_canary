@@ -6699,6 +6699,7 @@
 		<attribute key="weight" value="500"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="necklace"/>
+			<attribute key="level" value="1500"/>
 		</attribute>
 	</item>
 	<item id="3014" article="a" name="star amulet">
@@ -6966,6 +6967,7 @@
 		<attribute key="weight" value="500"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="necklace"/>
+			<attribute key="level" value="500"/>
 		</attribute>
 	</item>
 	<item id="3055" article="a" name="platinum amulet">
