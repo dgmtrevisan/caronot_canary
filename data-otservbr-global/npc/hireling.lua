@@ -551,7 +551,7 @@ function createHirelingType(HirelingName)
 	local function cookFood(npc, creature, specificRequest)
 		local playerId = creature:getId()
 		if specificRequest then
-			npcHandler:say("Very well. You may choose one of the following: {chilli con carniphila}, {svargrond salmon filet}, {carrion casserole}, {consecrated beef}, {roasted wyvern wings}, {carrot pie}, {tropical marinated tiger}, or {delicatessen salad}.", npc, creature)
+			npcHandler:say("Very well. You may choose one of the following: {chilli con carniphila}, {svargrond salmon filet}, {carrion casserole}, {consecrated beef}, {roasted wyvern wings}, {carrot pie}, {tropical marinated tiger}, {veggie casserole}, {carrot cake}, {roasted dragon wings}, {tropical fried terrorbird}, {blessed steak}, {rotworm stew} or {delicatessen salad}.", npc, creature)
 			npcHandler:setTopic(playerId, TOPIC_FOOD.SKILL_CHOOSE)
 		else
 			npcHandler:say("Alright, let me astonish you. Shall I?", npc, creature)
@@ -565,12 +565,12 @@ function createHirelingType(HirelingName)
 		if npcHandler:getTopic(playerId) == TOPIC.FOOD then
 			if MsgContains(message, "specific") then
 				npcHandler:setTopic(playerId, TOPIC_FOOD.SPECIFIC)
-				npcHandler:say("Which specific meal would you like? Choices are: {chilli con carniphila}, {svargrond salmon filet}, {carrion casserole}, {consecrated beef}, {roasted wyvern wings}, {carrot pie}, {tropical marinated tiger}, or {delicatessen salad}.", npc, creature)
+				npcHandler:say("Which specific meal would you like? Choices are: {chilli con carniphila}, {svargrond salmon filet}, {carrion casserole}, {consecrated beef}, {roasted wyvern wings}, {carrot pie}, {tropical marinated tiger}, {veggie casserole}, {carrot cake}, {roasted dragon wings}, {tropical fried terrorbird}, {blessed steak}, {rotworm stew} or {delicatessen salad}.", npc, creature)
 			elseif MsgContains(message, "surprise") then
 				local random = math.random(6)
 				if random == 6 then
 					npcHandler:setTopic(playerId, TOPIC_FOOD.SKILL_CHOOSE)
-					npcHandler:say("Yay! I have the ingredients to make a skill boost dish. Would you rather like to boost your {magic}, {melee}, {shielding}, or {distance} skill?", npc, creature)
+					npcHandler:say("Yay! I have the ingredients to make a skill boost dish. Would you rather like to boost your {magic}, {melee}, {shielding}, {veggie casserole}, {carrot cake}, {roasted dragon wings}, {tropical fried terrorbird}, {blessed steak}, {rotworm stew} or {distance} skill?", npc, creature)
 				else
 					deliverFood(npc, creature, HIRELING_FOODS_IDS[random], 15000)
 				end
@@ -590,7 +590,7 @@ function createHirelingType(HirelingName)
 			elseif MsgContains(message, "distance") then
 				deliverFood(npc, creature, HIRELING_FOODS_BOOST.DISTANCE, 15000)
 			else
-				npcHandler:say("Sorry, but you must choose a valid skill class. Would you like to boost your {magic}, {melee}, {shielding}, or {distance} skill?", npc, creature)
+				npcHandler:say("Sorry, but you must choose a valid skill class. Would you like to boost your {magic}, {melee}, {shielding}, {veggie casserole}, {carrot cake}, {roasted dragon wings}, {tropical fried terrorbird}, {blessed steak}, {rotworm stew} or {distance} skill?", npc, creature)
 			end
 		elseif npcHandler:getTopic(playerId) == TOPIC_FOOD.SPECIFIC then
 			local specificFoodOptions = {
@@ -602,12 +602,18 @@ function createHirelingType(HirelingName)
 				["carrot pie"] = 29409,
 				["tropical marinated tiger"] = 29410,
 				["delicatessen salad"] = 29411,
+				["veggie casserole"] = 9084,
+				["carrot cake"] = 9087,
+				["roasted dragon wings"] = 9081,
+				["tropical fried terrorbird"] = 9082,
+				["blessed steak"] = 9086,
+				["rotworm stew"] = 9079,
 			}
 
 			if specificFoodOptions[message:lower()] then
 				deliverFood(npc, creature, specificFoodOptions[message:lower()], 90000)
 			else
-				npcHandler:say("I'm sorry, but that's not a valid food option. Please choose from: {chilli con carniphila}, {svargrond salmon filet}, {carrion casserole}, {consecrated beef}, {roasted wyvern wings}, {carrot pie}, {tropical marinated tiger}, or {delicatessen salad}.", npc, creature)
+				npcHandler:say("I'm sorry, but that's not a valid food option. Please choose from: {chilli con carniphila}, {svargrond salmon filet}, {carrion casserole}, {consecrated beef}, {roasted wyvern wings}, {carrot pie}, {tropical marinated tiger}, {veggie casserole}, {carrot cake}, {roasted dragon wings}, {tropical fried terrorbird}, {blessed steak}, {rotworm stew} or {delicatessen salad}.", npc, creature)
 			end
 		end
 	end
