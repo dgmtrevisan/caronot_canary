@@ -114,6 +114,8 @@ npcConfig.shop = {
 	{ itemName = "bronze amulet", clientId = 3056, buy = 1 },
 	{ itemName = "silver amulet", clientId = 3054, buy = 1 },
 	{ itemName = "golden amulet", clientId = 3013, buy = 1 },
+	{ itemName = "diamond necklace", clientId = 35607, buy = 1 },
+	{ itemName = "star amulet", clientId = 3014, buy = 1 },
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)

@@ -6683,32 +6683,6 @@
 			<attribute key="slot" value="necklace"/>
 		</attribute>
 	</item>
-	<item id="3013" article="a" name="golden amulet">
-		<attribute key="primarytype" value="amulets and necklaces"/>
-		<attribute key="description" value="Many gems glitter on the amulet"/>
-		<attribute key="primarytype" value="amulets and necklaces"/>
-		<attribute key="showAttributes" value="1"/>
-		<attribute key="armor" value="3"/>
-		<attribute key="absorbpercentphysical" value="12"/>
-		<attribute key="absorbpercentfire" value="12"/>
-		<attribute key="absorbpercentpoison" value="12"/>
-		<attribute key="absorbpercentenergy" value="12"/>
-		<attribute key="absorbpercentice" value="12"/>
-		<attribute key="absorbpercentholy" value="12"/>
-		<attribute key="absorbpercentdeath" value="12"/>
-		<attribute key="weight" value="500"/>
-		<attribute key="script" value="moveevent">
-			<attribute key="slot" value="necklace"/>
-			<attribute key="level" value="1500"/>
-		</attribute>
-	</item>
-	<item id="3014" article="a" name="star amulet">
-		<attribute key="primarytype" value="amulets and necklaces"/>
-		<attribute key="weight" value="610"/>
-		<attribute key="script" value="moveevent">
-			<attribute key="slot" value="necklace"/>
-		</attribute>
-	</item>
 	<item id="3015" article="a" name="silver necklace">
 		<attribute key="primarytype" value="amulets and necklaces"/>
 		<attribute key="weight" value="480"/>
@@ -6953,21 +6927,88 @@
 			<attribute key="slot" value="ring"/>
 		</attribute>
 	</item>
+	<item id="3056" article="a" name="bronze amulet">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="armor" value="1"/>
+		<attribute key="absorbpercentphysical" value="4"/>
+		<attribute key="absorbpercentfire" value="4"/>
+		<attribute key="absorbpercentpoison" value="4"/>
+		<attribute key="absorbpercentenergy" value="4"/>
+		<attribute key="absorbpercentice" value="4"/>
+		<attribute key="absorbpercentholy" value="4"/>
+		<attribute key="absorbpercentdeath" value="4"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="necklace"/>
+		</attribute>
+	</item>
 	<item id="3054" article="a" name="silver amulet">
 		<attribute key="primarytype" value="amulets and necklaces"/>
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="armor" value="2"/>
-		<attribute key="absorbpercentphysical" value="7"/>
-		<attribute key="absorbpercentfire" value="7"/>
-		<attribute key="absorbpercentpoison" value="7"/>
-		<attribute key="absorbpercentenergy" value="7"/>
-		<attribute key="absorbpercentice" value="7"/>
-		<attribute key="absorbpercentholy" value="7"/>
-		<attribute key="absorbpercentdeath" value="7"/>
+		<attribute key="absorbpercentphysical" value="8"/>
+		<attribute key="absorbpercentfire" value="8"/>
+		<attribute key="absorbpercentpoison" value="8"/>
+		<attribute key="absorbpercentenergy" value="8"/>
+		<attribute key="absorbpercentice" value="8"/>
+		<attribute key="absorbpercentholy" value="8"/>
+		<attribute key="absorbpercentdeath" value="8"/>
 		<attribute key="weight" value="500"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="necklace"/>
 			<attribute key="level" value="500"/>
+		</attribute>
+	</item>
+	<item id="3013" article="a" name="golden amulet">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="armor" value="3"/>
+		<attribute key="absorbpercentphysical" value="12"/>
+		<attribute key="absorbpercentfire" value="12"/>
+		<attribute key="absorbpercentpoison" value="12"/>
+		<attribute key="absorbpercentenergy" value="12"/>
+		<attribute key="absorbpercentice" value="12"/>
+		<attribute key="absorbpercentholy" value="12"/>
+		<attribute key="absorbpercentdeath" value="12"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="necklace"/>
+			<attribute key="level" value="1000"/>
+		</attribute>
+	</item>
+	<item id="35607" name="diamond necklace">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="armor" value="4"/>
+		<attribute key="absorbpercentphysical" value="16"/>
+		<attribute key="absorbpercentfire" value="16"/>
+		<attribute key="absorbpercentpoison" value="16"/>
+		<attribute key="absorbpercentenergy" value="16"/>
+		<attribute key="absorbpercentice" value="16"/>
+		<attribute key="absorbpercentholy" value="16"/>
+		<attribute key="absorbpercentdeath" value="16"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="necklace"/>
+			<attribute key="level" value="1500"/>
+		</attribute>
+	</item>
+	<item id="3014" article="a" name="star amulet">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="armor" value="5"/>
+		<attribute key="absorbpercentphysical" value="20"/>
+		<attribute key="absorbpercentfire" value="20"/>
+		<attribute key="absorbpercentpoison" value="20"/>
+		<attribute key="absorbpercentenergy" value="20"/>
+		<attribute key="absorbpercentice" value="20"/>
+		<attribute key="absorbpercentholy" value="20"/>
+		<attribute key="absorbpercentdeath" value="20"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="necklace"/>
+			<attribute key="level" value="2000"/>
 		</attribute>
 	</item>
 	<item id="3055" article="a" name="platinum amulet">
@@ -6975,22 +7016,6 @@
 		<attribute key="description" value="It is an amulet of protection"/>
 		<attribute key="armor" value="2"/>
 		<attribute key="weight" value="600"/>
-		<attribute key="script" value="moveevent">
-			<attribute key="slot" value="necklace"/>
-		</attribute>
-	</item>
-	<item id="3056" article="a" name="bronze amulet">
-		<attribute key="primarytype" value="amulets and necklaces"/>
-		<attribute key="showAttributes" value="1"/>
-		<attribute key="armor" value="1"/>
-		<attribute key="absorbpercentphysical" value="3"/>
-		<attribute key="absorbpercentfire" value="3"/>
-		<attribute key="absorbpercentpoison" value="3"/>
-		<attribute key="absorbpercentenergy" value="3"/>
-		<attribute key="absorbpercentice" value="3"/>
-		<attribute key="absorbpercentholy" value="3"/>
-		<attribute key="absorbpercentdeath" value="3"/>
-		<attribute key="weight" value="500"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="necklace"/>
 		</attribute>
@@ -67124,10 +67149,6 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="weight" value="450"/>
 	</item>
 	<item id="35606" name="garnet necklace">
-		<attribute key="primarytype" value="amulets and necklaces"/>
-		<attribute key="weight" value="500"/>
-	</item>
-	<item id="35607" name="diamond necklace">
 		<attribute key="primarytype" value="amulets and necklaces"/>
 		<attribute key="weight" value="500"/>
 	</item>
