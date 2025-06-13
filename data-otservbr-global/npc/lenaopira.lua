@@ -116,6 +116,18 @@ npcConfig.shop = {
 	{ itemName = "golden amulet", clientId = 3013, buy = 1 },
 	{ itemName = "diamond necklace", clientId = 35607, buy = 1 },
 	{ itemName = "star amulet", clientId = 3014, buy = 1 },
+	{ itemName = 'lesser guardian gem', clientId = 44602, buy = 1 },
+    { itemName = 'guardian gem', clientId = 44603, buy = 1 },
+    { itemName = 'greater guardian gem', clientId = 44604, buy = 1 },
+    { itemName = 'lesser marksman gem', clientId = 44605, buy = 1 },
+    { itemName = 'marksman gem', clientId = 44606, buy = 1 },
+    { itemName = 'greater marksman gem', clientId = 44607, buy = 1 },
+    { itemName = 'lesser mystic gem', clientId = 44611, buy = 1 },
+    { itemName = 'mystic gem', clientId = 44612, buy = 1 },
+    { itemName = 'greater mystic gem', clientId = 44613, buy = 1 },
+    { itemName = 'lesser sage gem', clientId = 44608, buy = 1 },
+    { itemName = 'sage gem', clientId = 44609, buy = 1 },
+    { itemName = 'greater sage gem', clientId = 44610, buy = 1 },
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
